@@ -1,0 +1,1010 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: aabot\n"
+"POT-Creation-Date: 2019-12-17 23:27+0600\n"
+"PO-Revision-Date: 2019-12-17 23:27+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: comments.php:29
+msgid " Comments"
+msgstr ""
+
+#: comments.php:29
+msgid " Comment "
+msgstr ""
+
+#: comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:56
+msgid "&larr; Older "
+msgstr ""
+
+#: comments.php:59
+msgid "Newer &rarr;"
+msgstr ""
+
+#: functions.php:47
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:151
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:153
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:165
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: functions.php:167
+msgid "Widgets in this area will be shown on Portfolio Details Sidebar."
+msgstr ""
+
+#: functions.php:180
+msgid "Service Sidebar"
+msgstr ""
+
+#: functions.php:182
+msgid "Widgets in this area will be shown on Service Details Sidebar."
+msgstr ""
+
+#: functions.php:268
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:328
+msgid "Your name *"
+msgstr ""
+
+#: functions.php:334
+msgid "Your email *"
+msgstr ""
+
+#: functions.php:342 functions.php:356
+msgid "Comments *"
+msgstr ""
+
+#: functions.php:362
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:429
+msgid "aabot Demo Data"
+msgstr ""
+
+#: functions.php:434
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: functions.php:475
+msgid "Search"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:290 inc/aabot_add_plugin.php:76
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:291 inc/aabot_add_plugin.php:77
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:293 inc/aabot_add_plugin.php:78
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:295 inc/aabot_add_plugin.php:79
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:296 inc/aabot_add_plugin.php:80
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:299 inc/aabot_add_plugin.php:82
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:305 inc/aabot_add_plugin.php:87
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:311 inc/aabot_add_plugin.php:92
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:317 inc/aabot_add_plugin.php:97
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:323 inc/aabot_add_plugin.php:102
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:329 inc/aabot_add_plugin.php:107
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:334 inc/aabot_add_plugin.php:112
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:339 inc/aabot_add_plugin.php:117
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:344 inc/aabot_add_plugin.php:122
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:348 inc/aabot_add_plugin.php:126
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:349
+#: inc/class-tgm-plugin-activation.php:869
+#: inc/class-tgm-plugin-activation.php:2575
+#: inc/class-tgm-plugin-activation.php:3622
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:350
+#: inc/class-tgm-plugin-activation.php:3201 inc/aabot_add_plugin.php:127
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:351
+#: inc/class-tgm-plugin-activation.php:2994 inc/aabot_add_plugin.php:128
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:353 inc/aabot_add_plugin.php:129
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:355 inc/aabot_add_plugin.php:130
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:357 inc/aabot_add_plugin.php:131
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:358 inc/aabot_add_plugin.php:132
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:359 inc/aabot_add_plugin.php:133
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:360 inc/aabot_add_plugin.php:134
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:564
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:565
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:976
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:976
+#: inc/class-tgm-plugin-activation.php:979
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:979
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1163
+#: inc/class-tgm-plugin-activation.php:2990
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2024
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2318
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2334
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2337
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2340
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2357
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2361
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2363
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2369
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2372
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2375
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2384
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2430
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2434
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2438
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2442
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2524
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2532
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2540
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2552
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2589
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2590
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2591
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2595
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2596
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2645
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2650
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2656
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2765
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2768
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2799
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2801
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2950
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2976
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3200
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3540
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3543
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3545
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3549
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3551
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3551
+#: inc/class-tgm-plugin-activation.php:3559
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3551
+#: inc/class-tgm-plugin-activation.php:3559
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3552
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3554
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3557
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3559
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3560
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3562
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/aabot_add_plugin.php:29
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/aabot_add_plugin.php:34
+msgid "Bdevs Toolkit "
+msgstr ""
+
+#: inc/aabot_add_plugin.php:41
+msgid "Bdevs Elementor "
+msgstr ""
+
+#: inc/aabot_add_plugin.php:48
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/aabot_add_plugin.php:53
+msgid "Cmb2"
+msgstr ""
+
+#: inc/aabot_add_plugin.php:58
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/aabot_customizer.php:153
+msgid "Yes"
+msgstr ""
+
+#: inc/aabot_customizer.php:154
+msgid "No"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:9
+msgid "aabot Customizer"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:13
+msgid "Header Topbar Setting"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:18
+msgid "Show Button"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:25
+msgid "Show Side Bar"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:32
+msgid "Show Header Right"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:39
+msgid "Button Text"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:41
+msgid "Get A Quote"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:46
+msgid "Button Link"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:55
+msgid "Header Setting"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:59
+msgid "Header Logo"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:66
+msgid "Header Retina Logo"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:73
+msgid "Favicon"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:83
+msgid "Extra Info Setting"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:87
+msgid "Show Extra Info"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:94
+msgid "Logo"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:101 inc/template-helper.php:106
+msgid "Office Address"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:107 inc/template-helper.php:111
+msgid "Phone Number"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:113 inc/template-helper.php:116
+msgid "Email Address"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:119
+msgid "Show Portfolios"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:126 inc/aabot_customizer_data.php:304
+msgid "Facebook Url"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:133 inc/aabot_customizer_data.php:310
+msgid "Twitter Url"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:140 inc/aabot_customizer_data.php:328
+msgid "Behance Url"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:147
+msgid "Google Plus Url"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:154 inc/aabot_customizer_data.php:322
+msgid "Instagram Url"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:163
+msgid "Breadcrumb Setting"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:167
+msgid "Breadcrumb BG Color"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:169
+msgid "#f4f9fc"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:173
+msgid "Breadcrumb Padding Top"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:175 inc/aabot_customizer_data.php:182
+msgid "160px"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:180
+msgid "Breadcrumb Bottom Top"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:187
+msgid "Breadcrumb Background Image"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:194
+msgid "Breadcrumb Archive"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:196
+msgid "Archive for category"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:201
+msgid "Breadcrumb Search"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:203
+msgid "Search results for"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:208
+msgid "Breadcrumb tagged"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:210
+msgid "Posts tagged"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:215
+msgid "Breadcrumb posted by"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:217
+msgid "Articles posted by"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:222
+msgid "Breadcrumb Page Not Found"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:224
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:229
+msgid "Breadcrumb Page"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:231 template-parts/content-page.php:9
+msgid "Page"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:236
+msgid "Breadcrumb Home"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:238 inc/aabot_navwalker.php:366
+msgid "Home"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:245
+msgid "Blog Setting"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:249
+msgid "Show Blog BTN"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:256
+msgid "Show Blog Btn Icon"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:263
+msgid "Blog Button text"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:265 template-parts/content-audio.php:72
+#: template-parts/content-gallery.php:80 template-parts/content-image.php:75
+#: template-parts/content-left-sidebar.php:74
+#: template-parts/content-search.php:74 template-parts/content-video.php:78
+#: template-parts/content.php:78
+msgid "Read More"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:270
+msgid "Blog Button Icon"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:272
+msgid "fas fa-angle-double-right"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:277
+msgid "Blog Title"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:279
+msgid "Blog"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:284
+msgid "Blog Details Title"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:286
+msgid "Blog Details"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:294
+msgid "Footer Setting"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:298
+msgid "Footer Test"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:300
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim "
+"veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea "
+"commodo consequat"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:316
+msgid "Google Url"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:334
+msgid "Copyright"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:336
+msgid "Copyright &copy;2019 BasicTheme All Rights Reserved "
+msgstr ""
+
+#: inc/aabot_customizer_data.php:344
+msgid "Color Setting"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:348
+msgid "Theme Color"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:350 inc/aabot_customizer_data.php:362
+msgid "#e12454"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:354
+msgid "Theme Sec Color"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:356 inc/aabot_customizer_data.php:368
+msgid "#8fb569"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:360
+msgid "Theme btn Color"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:366
+msgid "Theme btn sec Color"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:374
+msgid "404 Setting"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:378
+msgid "400 Text"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:380
+msgid "404"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:385
+msgid "Not Found Title"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:387
+msgid "Page not found"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:392
+msgid "404 Description Text"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:394
+msgid ""
+"Oops! The page you are looking for does not exist. It might have been moved "
+"or deleted"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:399
+msgid "404 Link Text"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:401
+msgid "Back To Home"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:409
+msgid "RTL Setting"
+msgstr ""
+
+#: inc/aabot_customizer_data.php:413
+msgid "Switch RTL"
+msgstr ""
+
+#: inc/template-functions.php:33
+msgid "Post Tags"
+msgstr ""
+
+#: inc/template-helper.php:52 inc/template-helper.php:99
+msgid "Icon"
+msgstr ""
+
+#: inc/template-helper.php:290
+msgid "Message Icon"
+msgstr ""
+
+#: inc/template-helper.php:305
+msgid "Phone Icon"
+msgstr ""
+
+#: inc/template-helper.php:412
+msgid "+"
+msgstr ""
+
+#: inc/template-helper.php:575
+msgid "Copyright ©2019 BasicTheme. All Rights Reserved"
+msgstr ""
+
+#: search.php:24
+msgid "Search Results For:"
+msgstr ""
+
+#: single.php:37
+msgid "Prev Post"
+msgstr ""
+
+#: single.php:46
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/content-audio.php:34 template-parts/content-gallery.php:37
+#: template-parts/content-image.php:34
+#: template-parts/content-left-sidebar.php:34 template-parts/content-page.php:5
+#: template-parts/content-search.php:34 template-parts/content-video.php:37
+#: template-parts/content.php:37
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-gallery.php:16 template-parts/content-gallery.php:56
+msgid "image"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "aabot"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://bdevs.net/theme/aabot/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "aabot | Creative Portfolio WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "BasicTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/basictheme/portfolio"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page Sidebar"
+msgstr ""

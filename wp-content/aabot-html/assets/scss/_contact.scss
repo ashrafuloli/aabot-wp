@@ -1,0 +1,145 @@
+.contact-info-wrap {
+	position: relative;
+	background: #001c37;
+	padding: 50px;
+	z-index: 1;
+	overflow: hidden;
+
+	@include mq(lg) {
+		padding: 30px;
+	}
+	@include mq(xs) {
+		padding: 30px;
+	}
+
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		border-bottom: 380px solid #002345;
+		border-right: 366px solid transparent;
+		@include mq(lg) {
+			border-bottom: 400px solid #002345;
+			border-right: 290px solid transparent;
+		}
+
+		@include mq(md) {
+			border-bottom: 330px solid #002345;
+			border-right: 690px solid transparent;
+		}
+	}
+
+	.contact-wrap {
+		h3 {
+			font-size: 24px;
+			color: #fff;
+		}
+
+		p {
+			color: #98c3cb;
+			margin-bottom: 0;
+		}
+	}
+
+	.contact-separator {
+		background: #0d2f51;
+		margin: 50px 0;
+		height: 1px;
+		width: 100%;
+		@include mq(lg) {
+			margin: 30px 0;
+		}
+		@include mq(xs) {
+			margin: 30px 0;
+		}
+	}
+}
+
+.contact-info-wrap.contact-bg {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	z-index: 1;
+
+	&:before {
+		content: "";
+		background: rgba(0, 44, 171, 0.9);
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		border: 0;
+	}
+
+	.contact-separator {
+		background: #264fc6;
+	}
+}
+
+.contact-form {
+	margin-top: 55px;
+
+	.input-wrap {
+		margin-bottom: 30px;
+		position: relative;
+
+		i {
+			position: absolute;
+			right: 40px;
+			top: 50%;
+			transform: translateY(-50%);
+			color: #ff6666;
+			pointer-events: none;
+		}
+
+		input,
+		select,
+		textarea {
+			width: 100%;
+			padding-left: 40px;
+			height: 80px;
+			font-size: 18px;
+			color: #001c37;
+			border: 0;
+			@include placeholder() {
+				color: #66819a;
+			}
+		}
+
+		select {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		textarea {
+			padding-top: 30px;
+			height: 200px;
+		}
+	}
+
+	.btn-a {
+		background: #ff6666;
+		color: #fff;
+		padding: 20px 45px;
+		line-height: 1;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 700;
+		margin-right: 25px;
+		border: 0;
+
+		i {
+			margin-right: 10px;
+		}
+	}
+}

@@ -1,0 +1,245 @@
+.about-thumb {
+	text-align: right;
+	position: relative;
+	margin-bottom: 42px;
+
+	.shape {
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		background-color: $theme-color;
+		display: block;
+	}
+
+	.thumb-1 {
+		padding-right: 42px;
+
+		@include cmq(320px, 375px) {
+			padding-right: 0;
+		}
+
+		.shape {
+			position: absolute;
+			right: 0;
+			top: 116px;
+			z-index: -1;
+			@include cmq(320px, 375px) {
+				left: 50%;
+				z-index: 0;
+				opacity: 0.8;
+				transform: translateX(-50%);
+				top: 80px;
+			}
+		}
+	}
+
+	.thumb-2 {
+		position: absolute;
+		top: 280px;
+		left: -155px;
+
+		@include cmq(1400px, 1440px) {
+			left: -70px;
+		}
+
+		@include cmq(1200px, 1380px) {
+			left: -0px;
+		}
+
+		@include mq(lg) {
+			left: -100px;
+		}
+
+		@include mq(md) {
+			left: 50px;
+		}
+		@include mq(xs) {
+			position: relative;
+			top: -80px;
+			left: 0;
+		}
+
+		@include cmq(320px, 375px) {
+			position: relative;
+			top: 0px;
+			left: 0;
+		}
+
+		.shape {
+			position: absolute;
+			left: -60px;
+			top: 160px;
+			z-index: -1;
+			@include mq(xs) {
+				left: 0px;
+			}
+			@include cmq(320px, 375px) {
+				left: 50%;
+				z-index: 2;
+				opacity: 0.8;
+				transform: translateX(-50%);
+				top: 80px;
+			}
+		}
+	}
+
+	.thumb-3 {
+		text-align: center;
+		position: relative;
+		padding-top: 38px;
+
+		@include cmq(1200px, 1380px) {
+			margin-left: 50px;
+		}
+
+		@include mq(xs) {
+			padding-top: 0;
+			margin-top: -130px;
+			text-align: left;
+		}
+
+		@include cmq(320px, 375px) {
+			padding-top: 0;
+			margin-top: 0;
+			text-align: left;
+		}
+
+		img {
+			@include cmq(1200px, 1380px) {
+				margin-left: 96px;
+			}
+
+			@include mq(md) {
+				margin-left: 96px;
+			}
+			@include mq(xs) {
+				margin-left: 0;
+			}
+		}
+
+		.shape {
+			right: 70px;
+			bottom: -42px;
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			z-index: -1;
+			@include cmq(1200px, 1380px) {
+				right: 0;
+			}
+			@include mq(md) {
+				right: 95px;
+			}
+			@include mq(xs) {
+				right: 25px;
+				top: 50%;
+			}
+
+			@include cmq(320px, 375px) {
+				background-color: #002cab;
+				left: 50%;
+				z-index: 2;
+				opacity: 0.8;
+				transform: translateX(-50%);
+				top: 120px;
+			}
+		}
+
+		.dots-shape {
+			background-image: url(../img/shape/doddle-dots.png);
+			background-repeat: no-repeat;
+			height: 85px;
+			display: block;
+			width: 74px;
+			position: absolute;
+			left: 32px;
+			bottom: 8px;
+			@include cmq(1200px, 1380px) {
+				left: 56px;
+			}
+			@include mq(lg) {
+				left: 58px;
+			}
+			@include mq(md) {
+				left: 148px;
+			}
+			@include mq(xs) {
+				display: none;
+			}
+		}
+	}
+
+	.shape.egg-blue {
+		background-color: #00D1C0;
+	}
+
+	.shape.yellow {
+		background-color: #ffda2e;
+	}
+
+	.shape.blue {
+		background-color: #002cab;
+	}
+}
+
+
+.about-details {
+	h6.sub-title {
+		color: #ff6666;
+		font-weight: 700;
+		font-family: "Heebo", sans-serif;
+	}
+
+	h3.title {
+		font-size: 60px;
+
+		@include mq(lg) {
+			font-size: 45px;
+		}
+
+		@include mq(xs) {
+			font-size: 40px;
+		}
+	}
+
+	.shape {
+		padding-left: 50px;
+		padding-right: 25px;
+		position: relative;
+		margin-bottom: 30px;
+		font-size: 18px;
+		line-height: 28px;
+
+		@include mq(lg) {
+			padding-right: 0;
+		}
+
+		&:before {
+			content: "";
+			background: $theme-color-2;
+			width: 3px;
+			height: 40px;
+			position: absolute;
+			left: 0;
+			top: 5px;
+		}
+
+		&:after {
+			content: "";
+			background: $theme-color-2;
+			width: 30px;
+			height: 3px;
+			position: absolute;
+			left: 0;
+			top: 25px;
+			transform: translateY(-50%);
+		}
+	}
+
+	> p {
+		padding-right: 65px;
+		@include mq(lg) {
+			padding-right: 0;
+		}
+	}
+}

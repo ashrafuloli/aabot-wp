@@ -1,0 +1,87 @@
+.service-wrap {
+	background: #fff;
+	padding-top: 78px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: relative;
+
+	@include mq(lg){
+		padding-top: 60px;
+		padding-bottom: 50px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	@include mq(md){
+		padding-top: 60px;
+		padding-bottom: 50px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	&:hover{
+		.icon {
+			i {
+				background: $theme-color;
+			}
+		}
+		.details{
+			.a-btn {
+				color: #fff;
+				background: $theme-color;
+			}
+		}
+	}
+	.icon {
+		position: absolute;
+		left: 50px;
+		top: -40px;
+		i {
+			width: 80px;
+			height: 80px;
+			background: #fff2f2;
+			font-size: 30px;
+			color: #fff;
+			text-align: center;
+			line-height: 80px;
+			border-radius: 50%;
+			@include transition(0.3s);
+		}
+	}
+	.details{
+		h4 {
+			font-size: 30px;
+			margin-bottom: 22px;
+			@include mq(lg){
+				font-size: 25px;
+			}
+			@include mq(md){
+				font-size: 25px;
+			}
+		}
+		p {
+			margin-bottom: 26px;
+		}
+		.a-btn {
+			color: #001c37;
+			background: #fff2f2;
+			margin-bottom: 36px;
+			margin: 0;
+		}
+	}
+}
+
+.service-wrap.active{
+	.icon {
+		i {
+			background: $theme-color;
+		}
+	}
+	.details{
+		.a-btn {
+			color: #fff;
+			background: $theme-color;
+		}
+	}
+}

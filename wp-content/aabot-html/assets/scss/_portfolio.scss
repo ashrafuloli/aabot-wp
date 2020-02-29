@@ -1,0 +1,28 @@
+.portfolio-wrap{
+	.portfolio-thumb{
+		margin-bottom: 26px;
+		& img{
+			width: 100%;
+		}
+	}
+	.portfolio-details{
+		span{
+			color: $theme-color;
+			font-weight: 700;
+			font-size: 16px;
+			margin-bottom: 6px;
+			display: inline-block;
+		}
+		h4{
+			font-size: 30px;
+			a{
+				&:hover{
+					color: $theme-color-2;
+				}
+			}
+			@include mq(lg){
+				font-size: 26px;
+			}
+		}
+	}
+}

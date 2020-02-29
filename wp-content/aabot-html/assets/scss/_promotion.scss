@@ -1,0 +1,19 @@
+.promotion-area{
+	padding: 300px 0;
+}
+
+.video-popup{
+	height: 160px;
+	width: 160px;
+	font-size: 30px;
+	color: #fff;
+	background-color: $theme-color;
+	display: inline-block;
+	text-align: center;
+	line-height: 160px;
+	border-radius: 50%;
+	&:hover{
+		color: $theme-color;
+		background-color: #ffff;
+	}
+}

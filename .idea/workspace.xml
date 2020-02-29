@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a89038d-fa7b-4d35-82f9-2c31c5974e43" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1XWVIkrjhRqBFPZojJnyzLmYyTT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DeshGsm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\aabot-wp\wp-content\plugins\aabot-elementor\widgets" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a89038d-fa7b-4d35-82f9-2c31c5974e43" name="Default Changelist" comment="" />
+      <created>1581161759274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581161759274</updated>
+      <workItem from="1581161760608" duration="4202000" />
+      <workItem from="1581191775682" duration="393000" />
+      <workItem from="1582405843290" duration="87000" />
+      <workItem from="1582443966858" duration="6696000" />
+      <workItem from="1582494722492" duration="3897000" />
+      <workItem from="1582623775748" duration="223000" />
+      <workItem from="1582685945560" duration="5412000" />
+      <workItem from="1582720763993" duration="16000" />
+      <workItem from="1582751372955" duration="6867000" />
+      <workItem from="1582825769376" duration="9000" />
+      <workItem from="1582825790637" duration="5000" />
+      <workItem from="1582884697927" duration="1200000" />
+      <workItem from="1583006556359" duration="611000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="446" key="#WordPress" timestamp="1581161807835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="446" key="#WordPress/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1581161807835" />
+    <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582825772121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582825772121" />
+    <state x="0" y="200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581162671879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1581162671879" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1583007407065">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1583007407065" />
+    <state x="568" y="205" width="784" height="630" key="find.popup" timestamp="1582755473147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="205" width="784" height="630" key="find.popup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582755473147" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\xampp\htdocs\aabot-wp</wordpressPath>
+  </component>
+</project>

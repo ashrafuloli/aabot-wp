@@ -1,0 +1,185 @@
+.header-area{
+	padding-left: 185px;
+	padding-right: 185px;
+	padding-top: 63px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+
+	@include cmq(1200px, 1440px) {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	@include mq(lg){
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	@include mq(md){
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	@include mq(xs){
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 50px;
+	}
+
+	@include cmq(320px , 375px){
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 50px;
+	}
+
+}
+
+.mean-container{
+	a.meanmenu-reveal {
+		margin-top: -50px;
+		width: 60px;
+		height: 60px;
+		background: #fff;
+		line-height: 64px;
+		border: 0;
+		padding: 0;
+		font-size: 20px !important;
+		color: #ff6666;
+		text-align: center;
+		box-shadow: 0px 20px 40px 0px rgba(179, 17, 17, 0.4);
+		border-radius: 50%;
+		&:hover{
+			color: #fff;
+			background-color: #00d1c0;
+			box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.4);
+		}
+
+		@include mq(md){
+			width: 40px;
+			height: 40px;
+			line-height: 42px;
+			font-size: 16px !important;
+			margin-top: -40px;
+		}
+		@include mq(xs){
+			width: 40px;
+			height: 40px;
+			line-height: 42px;
+			font-size: 16px !important;
+			margin-top: -40px;
+		}
+	}
+}
+
+.logo{
+	a{
+		display: inline-block;
+	}
+}
+
+.site-menu{
+	ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li{
+			display: inline-block;
+			margin-right: 60px;
+			@include mq(lg){
+				margin-right: 30px;
+			}
+			a{
+				display: inline-block;
+				color: #001c37;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 1;
+
+				&:hover{
+					color: $theme-color;
+				}
+			}
+		}
+		li.active{
+			a{
+				color: $theme-color;
+			}
+		}
+	}
+}
+
+.header-area.sticky {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	background: #fff;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	@include mq(md){
+		padding-top: 20px;
+	}
+	@include mq(xs){
+		padding-top: 20px;
+	}
+	.bar{
+		a{
+			box-shadow: 0 0 20px 0 rgba(179, 17, 17, 0.4);
+			&:hover{
+				box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+			}
+		}
+	}
+	.mean-container a.meanmenu-reveal{
+		box-shadow: 0 0 20px 0 rgba(179, 17, 17, 0.4);
+		&:hover{
+			box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+		}
+	}
+}
+
+.bar{
+	a{
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		background: #fff;
+		line-height: 64px;
+		border-radius: 50%;
+		font-size: 20px;
+		color: $theme-color;
+		text-align: center;
+		box-shadow: 0px 20px 40px 0px rgba(179, 17, 17, 0.4);
+		&:hover{
+			color: #fff;
+			background-color: $theme-color-2;
+			box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.4);
+		}
+		@include cmq(320px , 375px){
+			width: 45px;
+			height: 45px;
+			line-height: 45px;
+			font-size: 16px;
+			margin-left: -5px;
+		}
+	}
+}
+
+.bar.active{
+	a{
+		color: #fff;
+		background-color: $theme-color-2;
+		box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.4);
+	}
+}

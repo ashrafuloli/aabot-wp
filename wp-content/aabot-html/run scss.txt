@@ -1,0 +1,2 @@
+
+sass --watch C:\xampp\htdocs\aabot\assets\scss\main.scss:C:\xampp\htdocs\aabot\assets\css\style.css

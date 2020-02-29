@@ -1,0 +1,27 @@
+.news-area {
+	position: relative;
+	z-index: 1;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	@include mq(md){
+		padding-bottom: 0;
+	}
+	@include mq(xs){
+		padding-bottom: 0;
+	}
+
+	&:before {
+		content: "";
+		background: rgba(0, 44, 171, 0.9);
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		border: 0;
+	}
+}

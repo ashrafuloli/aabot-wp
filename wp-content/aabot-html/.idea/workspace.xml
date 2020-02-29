@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ce5fe1a-bea3-4e8b-8a13-25683ffb6e94" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1W7tl63X8KJbxnBMYOcAAPsntzw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/logo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\aabot\assets\img\logo" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="c" />
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ce5fe1a-bea3-4e8b-8a13-25683ffb6e94" name="Default Changelist" comment="" />
+      <created>1578512608149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578512608149</updated>
+      <workItem from="1578512609467" duration="53000" />
+      <workItem from="1578541142347" duration="574000" />
+      <workItem from="1578579200946" duration="10244000" />
+      <workItem from="1578813859773" duration="8704000" />
+      <workItem from="1578926669647" duration="8735000" />
+      <workItem from="1579641622717" duration="2764000" />
+      <workItem from="1579717513643" duration="340000" />
+      <workItem from="1579931941630" duration="5292000" />
+      <workItem from="1580009429601" duration="4865000" />
+      <workItem from="1580034268588" duration="4525000" />
+      <workItem from="1580065736830" duration="9727000" />
+      <workItem from="1580139720266" duration="16000" />
+      <workItem from="1580322268481" duration="9259000" />
+      <workItem from="1580359932675" duration="602000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="702" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578593297657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1578593297657" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578592164915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1578592164915" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580139734266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1580139734266" />
+    <state x="639" y="238" width="642" height="564" key="find.popup" timestamp="1578814034335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="639" y="238" width="642" height="564" key="find.popup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1578814034335" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1578593446408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1578593446408" />
+  </component>
+</project>
