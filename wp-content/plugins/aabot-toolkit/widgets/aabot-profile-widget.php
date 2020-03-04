@@ -18,8 +18,8 @@
 	class medidove_Profile_Widget  extends WP_Widget{
 		
 		public function __construct(){
-			parent::__construct('medidove_profile_widget',esc_html__('Medidove Info Widget','bdevs-toolkit'),array(
-				'description' => esc_html__('Medidove Profile Widget','bdevs-toolkit'),
+			parent::__construct('medidove_profile_widget',esc_html__('Medidove Info Widget','aabot-toolkit'),array(
+				'description' => esc_html__('Medidove Profile Widget','aabot-toolkit'),
 			));
 		}
 		
@@ -88,7 +88,7 @@
 			$address_info  = isset($instance['address_info'])? $instance['address_info']:'';
 			?>
 			<p>
-				<label for="title"><?php esc_html_e('Title:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Title:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('title')); ?>"  name="<?php print esc_attr($this->get_field_name('title')); ?>" value="<?php print esc_attr($title); ?>">
 
@@ -108,24 +108,24 @@
 				</div>	
 			</p>
 			<p>
-				<label for="title"><?php esc_html_e('Short Description:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Short Description:','aabot-toolkit'); ?></label>
 			</p>
 
 			<textarea class="widefat" rows="7" cols="15" id="<?php print esc_attr($this->get_field_id('description')); ?>" value="<?php print esc_attr($description); ?>" name="<?php print esc_attr($this->get_field_name('description')); ?>"><?php print esc_attr($description); ?></textarea>
 
 
 			<p>
-				<label for="title"><?php esc_html_e('Email Address:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Email Address:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('email_address')); ?>"  name="<?php print esc_attr($this->get_field_name('email_address')); ?>" value="<?php print esc_attr($email_address); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Website Link:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Website Link:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('website_link')); ?>"  name="<?php print esc_attr($this->get_field_name('website_link')); ?>" value="<?php print esc_attr($website_link); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Address info:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Address info:','aabot-toolkit'); ?></label>
 			</p>
 			<textarea class="widefat" rows="7" cols="15" id="<?php print esc_attr($this->get_field_id('address_info')); ?>" value="<?php print esc_attr($address_info); ?>" name="<?php print esc_attr($this->get_field_name('address_info')); ?>"><?php print esc_attr($address_info); ?></textarea>
 

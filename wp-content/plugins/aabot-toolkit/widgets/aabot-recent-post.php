@@ -1,9 +1,9 @@
 <?php 
-Class Latest_Services_List_Widget extends WP_Widget{
+Class Latest_posts_Widget extends WP_Widget{
 
 	public function __construct(){
-		parent::__construct('bdevs-services-cats', 'Services List', array(
-			'description'	=> 'MediDove Services List'
+		parent::__construct('aabot-latest-posts', 'Posts With Thumb', array(
+			'description'	=> 'Latest Post Widget by MediDove'
 		));
 	}
 
@@ -17,34 +17,36 @@ Class Latest_Services_List_Widget extends WP_Widget{
      			<?php echo apply_filters( 'widget_title', $instance['title'] ); ?>
      		<?php echo $after_title; ?>
      	<?php endif; ?>
-        	<div class="more-service-list">
-                <ul>
+
+
+
+
+		    <div class="blog-feeds pr-15">
 		        	
 		    <?php 
 			$q = new WP_Query( array(
-			    'post_type'     => 'bdevs-service',
+			    'post_type'     => 'post',
 			    'posts_per_page'=> ($instance['count']) ? $instance['count'] : '3',
 			    'order'			=> ($instance['posts_order']) ? $instance['posts_order'] : 'DESC'
 			));
 
 			if( $q->have_posts() ):
 			while( $q->have_posts() ):$q->the_post();
-				$icon_id = get_post_meta(get_the_id(), 'service_icon_thumb_id_id', true);
-	            $icon_url = wp_get_attachment_image_src( $icon_id, 'thumbnail' );
-				?>
-	            <li>
-	                <a href="<?php the_permalink(); ?>">
-	                    <div class="more-service-icon"><img src="<?php print esc_url($icon_url[0]); ?>" alt="icon"></div>
-	                    <div class="more-service-title"><?php the_title(); ?></div>
-	                </a>
-	            </li>
-				<?php 
-				endwhile; wp_reset_query();           
-			endif; 
-			?> 
-		        </ul>
+			?>
+                <div class="signle-blog-feeds mb-20">
+                    <div class="blog-feeds-thumb">
+                        <a href="<?php the_permalink(); ?>">
+	                        <?php the_post_thumbnail(array(80, 70)); ?>
+	                    </a>
+                    </div>
+                    <div class="blog-feeds-text">
+                    	<h5><a href="<?php the_permalink(); ?>"><?php print wp_trim_words(get_the_title(), 8, ''); ?></a></h5>
+                        <span class="feeds-date"><?php the_time('F d, Y'); ?></span>
+                    </div>
+                </div>
+				<?php endwhile;            
+			 endif; ?> 
 		    </div>
-
 		<?php echo $after_widget; ?>
 
 		<?php
@@ -54,8 +56,8 @@ Class Latest_Services_List_Widget extends WP_Widget{
 
 	public function form($instance){
 		$title = ! empty( $instance['title'] ) ? $instance['title'] : '';
-		$count = ! empty( $instance['count'] ) ? $instance['count'] : esc_html__( '3', 'bdevs-toolkits' );
-		$posts_order = ! empty( $instance['posts_order'] ) ? $instance['posts_order'] : esc_html__( 'DESC', 'bdevs-toolkits' );
+		$count = ! empty( $instance['count'] ) ? $instance['count'] : esc_html__( '3', 'aabot-toolkits' );
+		$posts_order = ! empty( $instance['posts_order'] ) ? $instance['posts_order'] : esc_html__( 'DESC', 'aabot-toolkits' );
 	?>	
 		<p>
 			<label for="<?php echo $this->get_field_id('title'); ?>">Title</label>
@@ -84,5 +86,5 @@ Class Latest_Services_List_Widget extends WP_Widget{
 
 
 add_action('widgets_init', function(){
-	register_widget('Latest_services_List_Widget');
+	register_widget('Latest_posts_Widget');
 });

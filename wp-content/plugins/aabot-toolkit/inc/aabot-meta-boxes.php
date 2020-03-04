@@ -6,13 +6,13 @@
 function custom_post_metabox() {
   
   $page = new_cmb2_box(array(
-    'id'  => 'bdevs-toolkit',
-    'title' =>  esc_html__( 'Page Info', 'bdevs-toolkit' ),
+    'id'  => 'aabot-toolkit',
+    'title' =>  esc_html__( 'Page Info', 'aabot-toolkit' ),
     'object_types'  => array('page'),
     'fields'       => array (
 
         array(
-          'name' => esc_html__( 'Is it invisible breadcrumb?', 'bdevs-toolkit'),
+          'name' => esc_html__( 'Is it invisible breadcrumb?', 'aabot-toolkit'),
           'id'   => 'medidove_invisible_breadcrumb',
           'type' => 'checkbox',
         ),
@@ -33,26 +33,26 @@ function medidove_profile_metabox(array $profile) {
 
   $profile[] = array(
     'id'           => 'profile-edit',
-    'title'        => esc_html__( 'Profile Media links', 'bdevs-toolkit' ),
+    'title'        => esc_html__( 'Profile Media links', 'aabot-toolkit' ),
     'object_types' => array( 'user'),
     'fields'       => array (
       array(
-        'name' => esc_html__( 'Facebook Url', 'bdevs-toolkit'),
+        'name' => esc_html__( 'Facebook Url', 'aabot-toolkit'),
         'id'   => 'profile_fb_url',
         'type' => 'text_url',
       ),
       array(
-        'name' => esc_html__( 'Twitter Url', 'bdevs-toolkit'),
+        'name' => esc_html__( 'Twitter Url', 'aabot-toolkit'),
         'id'   => 'profile_twitter_url',
         'type' => 'text_url',
       ),
       array(
-        'name' => esc_html__( 'Google Plus Url', 'bdevs-toolkit'),
+        'name' => esc_html__( 'Google Plus Url', 'aabot-toolkit'),
         'id'   => 'profile_google_url',
         'type' => 'text_url',
       ),
       array(
-        'name' => esc_html__( 'Instagram Url', 'bdevs-toolkit'),
+        'name' => esc_html__( 'Instagram Url', 'aabot-toolkit'),
         'id'   => 'profile_instagram_url',
         'type' => 'text_url',
       )

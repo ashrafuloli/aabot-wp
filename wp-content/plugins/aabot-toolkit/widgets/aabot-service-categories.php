@@ -1,9 +1,9 @@
 <?php 
-Class Latest_posts_sidebar_Widget extends WP_Widget{
+Class Latest_Services_List_Widget extends WP_Widget{
 
 	public function __construct(){
-		parent::__construct('bdevs-latest-posts', 'Medidove Sidebar Posts Image', array(
-			'description'	=> 'Latest Post Widget by Medidove'
+		parent::__construct('aabot-services-cats', 'Services List', array(
+			'description'	=> 'MediDove Services List'
 		));
 	}
 
@@ -17,36 +17,34 @@ Class Latest_posts_sidebar_Widget extends WP_Widget{
      			<?php echo apply_filters( 'widget_title', $instance['title'] ); ?>
      		<?php echo $after_title; ?>
      	<?php endif; ?>
-		    <div class="sidebar-rc-post">
-		        <ul>
+        	<div class="more-service-list">
+                <ul>
 		        	
 		    <?php 
 			$q = new WP_Query( array(
-			    'post_type'     => 'post',
+			    'post_type'     => 'aabot-service',
 			    'posts_per_page'=> ($instance['count']) ? $instance['count'] : '3',
 			    'order'			=> ($instance['posts_order']) ? $instance['posts_order'] : 'DESC'
 			));
 
 			if( $q->have_posts() ):
 			while( $q->have_posts() ):$q->the_post();
-			?>
-		            <li>
-		                <div class="widget-posts-image">
-		                    <a href="<?php the_permalink(); ?>">
-		                        <?php the_post_thumbnail('thumbnail'); ?>
-		                    </a>
-		                </div>
-		                <div class="widget-posts-body">
-		                    <h6 class="widget-posts-title">
-		                        <a href="<?php the_permalink(); ?>"><?php print wp_trim_words(get_the_title(), 7, ''); ?></a>
-		                    </h6>
-		                    <div class="widget-posts-meta"><?php the_time('F d, Y'); ?></div>
-		                </div>
-		            </li>
-				<?php endwhile;            
-			 endif; ?> 
+				$icon_id = get_post_meta(get_the_id(), 'service_icon_thumb_id_id', true);
+	            $icon_url = wp_get_attachment_image_src( $icon_id, 'thumbnail' );
+				?>
+	            <li>
+	                <a href="<?php the_permalink(); ?>">
+	                    <div class="more-service-icon"><img src="<?php print esc_url($icon_url[0]); ?>" alt="icon"></div>
+	                    <div class="more-service-title"><?php the_title(); ?></div>
+	                </a>
+	            </li>
+				<?php 
+				endwhile; wp_reset_query();           
+			endif; 
+			?> 
 		        </ul>
 		    </div>
+
 		<?php echo $after_widget; ?>
 
 		<?php
@@ -56,8 +54,8 @@ Class Latest_posts_sidebar_Widget extends WP_Widget{
 
 	public function form($instance){
 		$title = ! empty( $instance['title'] ) ? $instance['title'] : '';
-		$count = ! empty( $instance['count'] ) ? $instance['count'] : esc_html__( '3', 'bdevs-toolkits' );
-		$posts_order = ! empty( $instance['posts_order'] ) ? $instance['posts_order'] : esc_html__( 'DESC', 'bdevs-toolkits' );
+		$count = ! empty( $instance['count'] ) ? $instance['count'] : esc_html__( '3', 'aabot-toolkits' );
+		$posts_order = ! empty( $instance['posts_order'] ) ? $instance['posts_order'] : esc_html__( 'DESC', 'aabot-toolkits' );
 	?>	
 		<p>
 			<label for="<?php echo $this->get_field_id('title'); ?>">Title</label>
@@ -86,5 +84,5 @@ Class Latest_posts_sidebar_Widget extends WP_Widget{
 
 
 add_action('widgets_init', function(){
-	register_widget('Latest_posts_sidebar_Widget');
+	register_widget('Latest_services_List_Widget');
 });

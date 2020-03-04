@@ -1,13 +1,13 @@
 <?php
-	add_action('widgets_init', 'bdevs_recent_post_without_img');
+	add_action('widgets_init', 'aabot_recent_post_without_img');
 
-	function bdevs_recent_post_without_img() {
-		register_widget('bdevs_recent_post_without_img');
+	function aabot_recent_post_without_img() {
+		register_widget('aabot_recent_post_without_img');
 	}
-	class bdevs_recent_post_without_img extends WP_Widget{
+	class aabot_recent_post_without_img extends WP_Widget{
 		public function __construct(){
-			parent::__construct('bdevs_recent_post_without_img',__('Siniko Recent Posts','bdevs-toolkit'),array(
-			'description' => __('Add Recent Post Widget','bdevs-toolkit'),
+			parent::__construct('aabot_recent_post_without_img',__('Siniko Recent Posts','aabot-toolkit'),array(
+			'description' => __('Add Recent Post Widget','aabot-toolkit'),
 			));
 		}
 		public function widget($args,$instance){

@@ -282,17 +282,21 @@ final class AabotElementor {
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/counter-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/slider-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/about-widget.php';
-		require_once plugin_dir_path( __FILE__ ) . 'widgets/service-post-widget.php';
+		require_once plugin_dir_path( __FILE__ ) . 'widgets/services-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/skills-widget.php';
+		require_once plugin_dir_path( __FILE__ ) . 'widgets/video-widget.php';
+		require_once plugin_dir_path( __FILE__ ) . 'widgets/work-widget.php';
+
+//		require_once plugin_dir_path( __FILE__ ) . 'widgets/portfolio.php';
+		require_once plugin_dir_path( __FILE__ ) . 'widgets/service-post-widget.php';
+
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/cta-widget.php';
-		require_once plugin_dir_path( __FILE__ ) . 'widgets/portfolio.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/testimonial-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/brands-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/faq-widget.php';
-		
+
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/contact-info-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/experience-info-widget.php';
-		require_once plugin_dir_path( __FILE__ ) . 'widgets/services-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/portfolio-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/members.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/contact-widget.php';
@@ -304,21 +308,22 @@ final class AabotElementor {
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotCounter() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotSlider() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotAbout() );
-		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotServicePost() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotService() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotSkills() );
-		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotCTA() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotVideo() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotWork() );
+
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotPortfolio() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotServicePost() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotCTA() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotBrand() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotFAQ() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotTestimonials() );
 
 
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotExperienceInfo() );
-
-		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotService() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotMembers() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotBlogPost() );
-		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotPortfolio() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotContactInfo() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotContact() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \AabotElementor\Widget\AabotSubscribe() );

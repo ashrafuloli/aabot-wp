@@ -1,5 +1,5 @@
 <?php 
-class BdevsRoutinePost 
+class AabotRoutinePost
 {
 	function __construct() {
 		add_action( 'init', array( $this, 'register_custom_post_type' ) );
@@ -9,8 +9,8 @@ class BdevsRoutinePost
 	}
 	
 	public function routine_template_include( $template ) {
-		if ( is_singular( 'bdevs-routine' ) ) {
-			return $this->get_template( 'single-bdevs-routine.php');
+		if ( is_singular( 'aabot-routine' ) ) {
+			return $this->get_template( 'single-aabot-routine.php');
 		}
 		return $template;
 	}
@@ -20,7 +20,7 @@ class BdevsRoutinePost
 			$file = $theme_file;
 		} 
 		else {
-			$file = BDEVS_TOOLKIT_DIR . '/template/'. $template;
+			$file = AABOT_TOOLKIT_DIR . '/template/'. $template;
 		}
 		return apply_filters( __FUNCTION__, $file, $template );
 	}
@@ -29,24 +29,24 @@ class BdevsRoutinePost
 	public function register_custom_post_type() {
 
 		$labels = array(
-			'name'               => __( 'Routines', 'Post Type General Name', 'bdevs-toolkit'),
-			'singular_name'      => __( 'Routine', 'Post Type Singular Name', 'bdevs-toolkit'),
-			'menu_name'          => __( 'Routines', 'bdevs-toolkit'),
-			'parent_item_colon'  => __( 'Parent Routine', 'bdevs-toolkit'),
-			'all_items'          => __( 'All  Routines', 'bdevs-toolkit'),
-			'view_item'          => __( 'View  Routine', 'bdevs-toolkit'),
-			'add_new_item'       => __( 'Add New  Routine', 'bdevs-toolkit'),
-			'add_new'            => __( 'Add New  Routine', 'bdevs-toolkit'),
-			'edit_item'          => __( 'Edit  Routine', 'bdevs-toolkit'),
-			'update_item'        => __( 'Update  Routine', 'bdevs-toolkit'),
-			'search_items'       => __( 'Search  Routine', 'bdevs-toolkit'),
-			'not_found'          => __( 'Not found', 'bdevs-toolkit'),
-			'not_found_in_trash' => __( 'Not found in Trash', 'bdevs-toolkit'),
+			'name'               => __( 'Routines', 'Post Type General Name', 'aabot-toolkit'),
+			'singular_name'      => __( 'Routine', 'Post Type Singular Name', 'aabot-toolkit'),
+			'menu_name'          => __( 'Routines', 'aabot-toolkit'),
+			'parent_item_colon'  => __( 'Parent Routine', 'aabot-toolkit'),
+			'all_items'          => __( 'All  Routines', 'aabot-toolkit'),
+			'view_item'          => __( 'View  Routine', 'aabot-toolkit'),
+			'add_new_item'       => __( 'Add New  Routine', 'aabot-toolkit'),
+			'add_new'            => __( 'Add New  Routine', 'aabot-toolkit'),
+			'edit_item'          => __( 'Edit  Routine', 'aabot-toolkit'),
+			'update_item'        => __( 'Update  Routine', 'aabot-toolkit'),
+			'search_items'       => __( 'Search  Routine', 'aabot-toolkit'),
+			'not_found'          => __( 'Not found', 'aabot-toolkit'),
+			'not_found_in_trash' => __( 'Not found in Trash', 'aabot-toolkit'),
 		);
 
 		$args   = array(
-			'label'               => __( 'Routine', 'bdevs-toolkit'),
-			'description'         => __( 'Create and manage all BDevs Routine', 'bdevs-toolkit'),
+			'label'               => __( 'Routine', 'aabot-toolkit'),
+			'description'         => __( 'Create and manage all Aabot Routine', 'aabot-toolkit'),
 			'labels'              => $labels,
 			'supports'            => array( 'title','thumbnail', 'editor'),
 			'hierarchical'        => false,
@@ -65,7 +65,7 @@ class BdevsRoutinePost
 			'menu_icon'           => 'dashicons-id-alt',
 		);
 
-		register_post_type( 'bdevs-routine', $args );
+		register_post_type( 'aabot-routine', $args );
 	}
 	
 	public function create_cat() {
@@ -75,14 +75,14 @@ class BdevsRoutinePost
 		$labels = array(
 			'name'              => esc_html($name),
 			'singular_name'     => esc_html($name),
-			'search_items'      => sprintf(esc_html__( 'Search %s:', 'bdevs-toolkit' ),$name),
-			'all_items'      	=> sprintf(esc_html__( 'All %s:', 'bdevs-toolkit' ),$name),
-			'parent_item'      	=> sprintf(esc_html__( 'Parent  %s:', 'bdevs-toolkit' ),$name),
-			'parent_item_colon' => sprintf(esc_html__( 'Parent  %s:', 'bdevs-toolkit' ),$name),
-			'edit_item'     	=> sprintf(esc_html__( 'Edit  %s:', 'bdevs-toolkit' ),$name),
-			'update_item'     	=> sprintf(esc_html__( 'Update %s:', 'bdevs-toolkit' ),$name),
-			'add_new_item'      => sprintf(esc_html__( 'Add New %s:', 'bdevs-toolkit' ),$name),
-			'new_item_name'     => sprintf(esc_html__( 'New  %s Name:', 'bdevs-toolkit' ),$name),
+			'search_items'      => sprintf(esc_html__( 'Search %s:', 'aabot-toolkit' ),$name),
+			'all_items'      	=> sprintf(esc_html__( 'All %s:', 'aabot-toolkit' ),$name),
+			'parent_item'      	=> sprintf(esc_html__( 'Parent  %s:', 'aabot-toolkit' ),$name),
+			'parent_item_colon' => sprintf(esc_html__( 'Parent  %s:', 'aabot-toolkit' ),$name),
+			'edit_item'     	=> sprintf(esc_html__( 'Edit  %s:', 'aabot-toolkit' ),$name),
+			'update_item'     	=> sprintf(esc_html__( 'Update %s:', 'aabot-toolkit' ),$name),
+			'add_new_item'      => sprintf(esc_html__( 'Add New %s:', 'aabot-toolkit' ),$name),
+			'new_item_name'     => sprintf(esc_html__( 'New  %s Name:', 'aabot-toolkit' ),$name),
 			'menu_name'      	=> esc_html($name),
 		);
 
@@ -95,7 +95,7 @@ class BdevsRoutinePost
 			'rewrite'           => array( 'slug' => 'routine_cat' ),
 		);
 
-		register_taxonomy('routine_categories','bdevs-routine', $args );
+		register_taxonomy('routine_categories','aabot-routine', $args );
 	}
 
 
@@ -104,19 +104,19 @@ class BdevsRoutinePost
 		$education = new_cmb2_box( array(
 			'title'   => 'DR Routine Section',
 			'id'    => 'dr-routine-section',
-			'object_types'  => array('bdevs-routine')
+			'object_types'  => array('aabot-routine')
 		));
 		
 
 		$group_field_id = $education->add_field( array(
 			'id'          => 'rutine_info_repeat_group',
 			'type'        => 'group',
-			'description' => __( 'Routine in details', 'bdevs-toolkit' ),
+			'description' => __( 'Routine in details', 'aabot-toolkit' ),
 			'repeatable'  => true, // use false if you want non-repeatable group
 			'options'     => array(
-			'group_title'   => __( 'Routine Extra Info', 'bdevs-toolkit' ), // since version 1.1.4, {#} gets replaced by row number
-			'add_button'    => __( 'Add Another Entry', 'bdevs-toolkit' ),
-			'remove_button' => __( 'Remove Entry', 'bdevs-toolkit' ),
+			'group_title'   => __( 'Routine Extra Info', 'aabot-toolkit' ), // since version 1.1.4, {#} gets replaced by row number
+			'add_button'    => __( 'Add Another Entry', 'aabot-toolkit' ),
+			'remove_button' => __( 'Remove Entry', 'aabot-toolkit' ),
 			'sortable'      => true, // beta
 			'closed'     => false, // true to have the groups closed by default
 		),
@@ -124,14 +124,14 @@ class BdevsRoutinePost
 
 		// your name
 		$education->add_group_field( $group_field_id, array(
-			'name' => esc_html__('Dr. Name','bdevs-toolkit'),
+			'name' => esc_html__('Dr. Name','aabot-toolkit'),
 			'type' => 'text',
 			'id' => 'dr_name'
 		) );
 
 		// your picture
 		$education->add_group_field( $group_field_id, array(
-			'name' => esc_html__('Time Period','bdevs-toolkit'),
+			'name' => esc_html__('Time Period','aabot-toolkit'),
 			'type' => 'text',
 			'id' => 'dr_time'
 		) );
@@ -141,4 +141,4 @@ class BdevsRoutinePost
 
 }
 
-new BdevsRoutinePost();
+new AabotRoutinePost();

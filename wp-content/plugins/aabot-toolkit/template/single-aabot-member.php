@@ -103,7 +103,7 @@ get_header(); ?>
                 <?php if(is_array($educational_infos)): ?>
                 <div class="service-widget mb-50">
                     <div class="widget-title-box mb-30">
-                        <h3 class="widget-title"><?php print esc_html_e('Qualifications', 'bdevs-toolkit'); ?></h3>
+                        <h3 class="widget-title"><?php print esc_html_e('Qualifications', 'aabot-toolkit'); ?></h3>
                     </div>
                     <div class="more-service-list">
                         <ul>

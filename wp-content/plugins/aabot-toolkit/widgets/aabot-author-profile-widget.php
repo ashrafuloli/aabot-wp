@@ -18,8 +18,8 @@
 	class Author_Profile_Widget  extends WP_Widget{
 		
 		public function __construct(){
-			parent::__construct('author_profile_widget',esc_html__('Medidove About','bdevs-toolkit'),array(
-				'description' => esc_html__('Medidove About Widget','bdevs-toolkit'),
+			parent::__construct('author_profile_widget',esc_html__('Medidove About','aabot-toolkit'),array(
+				'description' => esc_html__('Medidove About Widget','aabot-toolkit'),
 			));
 		}
 		
@@ -105,12 +105,12 @@
 			</p>
 
 			<p>
-				<label for="title"><?php esc_html_e('Name:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Name:','aabot-toolkit'); ?></label>
 			</p>
 
 			<input type="text" id="<?php print esc_attr($this->get_field_id('title')); ?>"  name="<?php print esc_attr($this->get_field_name('title')); ?>" value="<?php print esc_attr($title); ?>">
 			<p>
-				<label for="title"><?php esc_html_e('Short Description:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Short Description:','aabot-toolkit'); ?></label>
 			</p>
 
 			<input type="text" id="<?php print esc_attr($this->get_field_id('description')); ?>"  name="<?php print esc_attr($this->get_field_name('description')); ?>" value="<?php print esc_attr($description); ?>">
@@ -119,27 +119,27 @@
 
 
 			<p>
-				<label for="title"><?php esc_html_e('Facebook:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Facebook:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('facebook')); ?>"  name="<?php print esc_attr($this->get_field_name('facebook')); ?>" value="<?php print esc_attr($facebook); ?>">
 
 
 			<p>
-				<label for="title"><?php esc_html_e('Twitter:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Twitter:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('twitter')); ?>"  name="<?php print esc_attr($this->get_field_name('twitter')); ?>" value="<?php print esc_attr($twitter); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Behance:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Behance:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('behance')); ?>"  name="<?php print esc_attr($this->get_field_name('behance')); ?>" value="<?php print esc_attr($behance); ?>">
 			<p>
-				<label for="title"><?php esc_html_e('Youtube:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Youtube:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('youtube')); ?>"  name="<?php print esc_attr($this->get_field_name('youtube')); ?>" value="<?php print esc_attr($youtube); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Pinterest:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Pinterest:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('pinterest')); ?>"  name="<?php print esc_attr($this->get_field_name('pinterest')); ?>" value="<?php print esc_attr($pinterest); ?>">
 			

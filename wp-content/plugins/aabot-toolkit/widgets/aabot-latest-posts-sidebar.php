@@ -1,9 +1,9 @@
 <?php 
-Class Latest_posts_Widget extends WP_Widget{
+Class Latest_posts_sidebar_Widget extends WP_Widget{
 
 	public function __construct(){
-		parent::__construct('bdevs-latest-posts', 'Posts With Thumb', array(
-			'description'	=> 'Latest Post Widget by MediDove'
+		parent::__construct('aabot-latest-posts', 'Medidove Sidebar Posts Image', array(
+			'description'	=> 'Latest Post Widget by Medidove'
 		));
 	}
 
@@ -17,11 +17,8 @@ Class Latest_posts_Widget extends WP_Widget{
      			<?php echo apply_filters( 'widget_title', $instance['title'] ); ?>
      		<?php echo $after_title; ?>
      	<?php endif; ?>
-
-
-
-
-		    <div class="blog-feeds pr-15">
+		    <div class="sidebar-rc-post">
+		        <ul>
 		        	
 		    <?php 
 			$q = new WP_Query( array(
@@ -33,19 +30,22 @@ Class Latest_posts_Widget extends WP_Widget{
 			if( $q->have_posts() ):
 			while( $q->have_posts() ):$q->the_post();
 			?>
-                <div class="signle-blog-feeds mb-20">
-                    <div class="blog-feeds-thumb">
-                        <a href="<?php the_permalink(); ?>">
-	                        <?php the_post_thumbnail(array(80, 70)); ?>
-	                    </a>
-                    </div>
-                    <div class="blog-feeds-text">
-                    	<h5><a href="<?php the_permalink(); ?>"><?php print wp_trim_words(get_the_title(), 8, ''); ?></a></h5>
-                        <span class="feeds-date"><?php the_time('F d, Y'); ?></span>
-                    </div>
-                </div>
+		            <li>
+		                <div class="widget-posts-image">
+		                    <a href="<?php the_permalink(); ?>">
+		                        <?php the_post_thumbnail('thumbnail'); ?>
+		                    </a>
+		                </div>
+		                <div class="widget-posts-body">
+		                    <h6 class="widget-posts-title">
+		                        <a href="<?php the_permalink(); ?>"><?php print wp_trim_words(get_the_title(), 7, ''); ?></a>
+		                    </h6>
+		                    <div class="widget-posts-meta"><?php the_time('F d, Y'); ?></div>
+		                </div>
+		            </li>
 				<?php endwhile;            
 			 endif; ?> 
+		        </ul>
 		    </div>
 		<?php echo $after_widget; ?>
 
@@ -56,8 +56,8 @@ Class Latest_posts_Widget extends WP_Widget{
 
 	public function form($instance){
 		$title = ! empty( $instance['title'] ) ? $instance['title'] : '';
-		$count = ! empty( $instance['count'] ) ? $instance['count'] : esc_html__( '3', 'bdevs-toolkits' );
-		$posts_order = ! empty( $instance['posts_order'] ) ? $instance['posts_order'] : esc_html__( 'DESC', 'bdevs-toolkits' );
+		$count = ! empty( $instance['count'] ) ? $instance['count'] : esc_html__( '3', 'aabot-toolkits' );
+		$posts_order = ! empty( $instance['posts_order'] ) ? $instance['posts_order'] : esc_html__( 'DESC', 'aabot-toolkits' );
 	?>	
 		<p>
 			<label for="<?php echo $this->get_field_id('title'); ?>">Title</label>
@@ -86,5 +86,5 @@ Class Latest_posts_Widget extends WP_Widget{
 
 
 add_action('widgets_init', function(){
-	register_widget('Latest_posts_Widget');
+	register_widget('Latest_posts_sidebar_Widget');
 });

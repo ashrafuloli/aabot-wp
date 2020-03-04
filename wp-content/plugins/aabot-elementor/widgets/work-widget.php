@@ -15,7 +15,7 @@ use Elementor\Group_Control_Box_Shadow;
  *
  * @since 1.0.0
  */
-class AabotService extends \Elementor\Widget_Base
+class AabotWork extends \Elementor\Widget_Base
 {
 
 	/**
@@ -30,7 +30,7 @@ class AabotService extends \Elementor\Widget_Base
 	 */
 	public function get_name()
 	{
-		return 'aabot-services';
+		return 'aabot-works';
 	}
 
 	/**
@@ -45,7 +45,7 @@ class AabotService extends \Elementor\Widget_Base
 	 */
 	public function get_title()
 	{
-		return __('Services', 'aabot-elementor');
+		return __('Works', 'aabot-elementor');
 	}
 
 	/**
@@ -80,7 +80,7 @@ class AabotService extends \Elementor\Widget_Base
 
 	public function get_keywords()
 	{
-		return ['services'];
+		return ['works'];
 	}
 
 	public function get_script_depends()
@@ -123,7 +123,7 @@ class AabotService extends \Elementor\Widget_Base
 				'label' => __('Heading', 'aabot-elementor'),
 				'type' => Controls_Manager::TEXT,
 				'placeholder' => __('Enter your Heading', 'aabot-elementor'),
-				'default' => __('What I Do', 'aabot-elementor'),
+				'default' => __('How It Works', 'aabot-elementor'),
 			]
 		);
 
@@ -142,51 +142,48 @@ class AabotService extends \Elementor\Widget_Base
 		$this->start_controls_section(
 			'section_content_contact_info',
 			[
-				'label' => esc_html__('Services', 'aabot-elementor'),
+				'label' => esc_html__('Works', 'aabot-elementor'),
 			]
 		);
 
 
 		$this->add_control(
 
-			'services',
+			'works',
 			[
-				'label' => esc_html__('Services Items', 'aabot-elementor'),
+				'label' => esc_html__('Works Items', 'aabot-elementor'),
 				'type' => Controls_Manager::REPEATER,
 				'default' => [
 					[
-						'service_icon' => 'fal fa-briefcase',
-						'service_title' => esc_html__('Services One', 'aabot-elementor'),
-						'service_content' => esc_html__('Here your content', 'aabot-elementor'),
-						'service_btn_text' => esc_html__('Learn More', 'aabot-elementor'),
-						'service_btn_url' => '#',
+						'work_number' => '01',
+						'work_title' => esc_html__('Works One', 'aabot-elementor'),
+						'work_content' => esc_html__('Here your content', 'aabot-elementor'),
+						'number_color' => 'custom',
 					],
 					[
-						'service_icon' => 'fal fa-briefcase',
-						'service_title' => esc_html__('Services Two', 'aabot-elementor'),
-						'service_content' => esc_html__('Here your content', 'aabot-elementor'),
-						'service_btn_text' => esc_html__('Learn More', 'aabot-elementor'),
-						'service_btn_url' => '#',
+						'work_number' => '02',
+						'work_title' => esc_html__('Works Two', 'aabot-elementor'),
+						'work_content' => esc_html__('Here your content', 'aabot-elementor'),
+						'number_color' => 'egg-blue',
 					],
 					[
-						'service_icon' => 'fal fa-briefcase',
-						'service_title' => esc_html__('Services Three', 'aabot-elementor'),
-						'service_content' => esc_html__('Here your content', 'aabot-elementor'),
-						'service_btn_text' => esc_html__('Learn More', 'aabot-elementor'),
-						'service_btn_url' => '#',
+						'work_number' => '03',
+						'work_title' => esc_html__('Works Three', 'aabot-elementor'),
+						'work_content' => esc_html__('Here your content', 'aabot-elementor'),
+						'number_color' => 'yellow',
 					],
 				],
 				'fields' => [
 					[
-						'name' => 'service_icon',
-						'label' => esc_html__('Icon', 'aabot-elementor'),
+						'name' => 'work_number',
+						'label' => esc_html__('Number', 'aabot-elementor'),
 						'type' => Controls_Manager::TEXT,
 						'dynamic' => ['active' => true],
-						'default' => esc_attr__('fal fa-briefcase', 'aabot-elementor'),
+						'default' => esc_attr__('01', 'aabot-elementor'),
 						'label_block' => true,
 					],
 					[
-						'name' => 'service_title',
+						'name' => 'work_title',
 						'label' => esc_html__('Title', 'aabot-elementor'),
 						'type' => Controls_Manager::TEXT,
 						'dynamic' => ['active' => true],
@@ -195,31 +192,34 @@ class AabotService extends \Elementor\Widget_Base
 					],
 
 					[
-						'name' => 'service_content',
+						'name' => 'work_content',
 						'label' => esc_html__('Content', 'aabot-elementor'),
 						'type' => Controls_Manager::TEXTAREA,
 						'dynamic' => ['active' => true],
 						'default' => esc_html__('Contact Text', 'aabot-elementor'),
 						'label_block' => true,
 					],
+
 					[
-						'name' => 'service_btn_text',
-						'label' => esc_html__('Button Text', 'aabot-elementor'),
-						'type' => Controls_Manager::TEXT,
-						'dynamic' => ['active' => true],
-						'default' => esc_html__('Learn More', 'aabot-elementor'),
-						'label_block' => true,
-					],
-					[
-						'name' => 'service_btn_url',
-						'label' => esc_html__('Button Url', 'aabot-elementor'),
-						'type'        => Controls_Manager::URL,
-						'placeholder' => __( 'www.test.com', 'aabot-elementor' ),
-						'dynamic' => ['active' => true],
-						'default'     => [
-							'url' => '#',
+						'name'        => 'number_color',
+						'label'   => esc_html__( 'Dot Color', 'aabot-elementor' ),
+						'type'    => Controls_Manager::SELECT,
+						'options' => [
+							'egg-blue' => esc_html__( 'Egg Blue', 'aabot-elementor' ),
+							'yellow' => esc_html__( 'Yellow', 'aabot-elementor' ),
+							'custom' => esc_html__( 'Custom', 'aabot-elementor' ),
 						],
-						'label_block' => true,
+						'default' => 'egg-blue',
+					],
+
+					[
+						'name'        => 'number_custom_color',
+						'label'     => esc_html__( 'Dot Custom Color', 'aabot-elementor' ),
+						'type'      => Controls_Manager::COLOR,
+						'default'   => '#ff6666',
+						'condition' => [
+							'number_color' => 'custom'
+						],
 					],
 
 				],
@@ -265,7 +265,7 @@ class AabotService extends \Elementor\Widget_Base
 		);
 
 		$this->add_control(
-			'show_icon',
+			'show_number',
 			[
 				'label' => esc_html__('Show Icon', 'aabot-elementor'),
 				'type' => Controls_Manager::SWITCHER,
@@ -291,16 +291,6 @@ class AabotService extends \Elementor\Widget_Base
 			]
 		);
 
-		$this->add_control(
-			'show_button',
-			[
-				'label' => esc_html__('Show Button', 'aabot-elementor'),
-				'type' => Controls_Manager::SWITCHER,
-				'default' => 'yes',
-			]
-		);
-
-
 
 		$this->add_control(
 			'show_heading',
@@ -308,6 +298,62 @@ class AabotService extends \Elementor\Widget_Base
 				'label' => esc_html__('Show Heading', 'aabot-elementor'),
 				'type' => Controls_Manager::SWITCHER,
 				'default' => 'yes',
+			]
+		);
+
+		$this->add_control(
+			'show_icon',
+			[
+				'label'   => esc_html__( 'Show Icon', 'aabot-elementor' ),
+				'type' => Controls_Manager::CHOOSE,
+				'options' => [
+					'none'    => [
+						'title' =>esc_html__( 'None', 'aabot-elementor' ),
+						'icon' => 'fa fa-ban',
+					],
+					'inline-block' => [
+						'title' =>esc_html__( 'Show', 'aabot-elementor' ),
+						'icon' => 'fa fa-eye',
+					],
+				],
+				'selectors' => [
+					'{{WRAPPER}} .work-wrap:before' => 'display: {{VALUE}};'
+				],
+				'default' => 'inline-block',
+			]
+		);
+
+		$this->add_control(
+			'show_container',
+			[
+				'label'   => esc_html__( 'Show Container Border', 'aabot-elementor' ),
+				'type' => Controls_Manager::CHOOSE,
+				'options' => [
+					'none'    => [
+						'title' =>esc_html__( 'None', 'aabot-elementor' ),
+						'icon' => 'fa fa-ban',
+					],
+					'inline-block' => [
+						'title' =>esc_html__( 'Show', 'aabot-elementor' ),
+						'icon' => 'fa fa-eye',
+					],
+				],
+				'selectors' => [
+					'{{WRAPPER}} .work-bg:after' => 'display: {{VALUE}};'
+				],
+				'default' => 'inline-block',
+			]
+		);
+
+		$this->add_control(
+			'show_container_color',
+			[
+				'label'     => esc_html__( 'Container Color', 'aabot-elementor' ),
+				'type'      => Controls_Manager::COLOR,
+				'default'   => '#0c2fa8',
+				'selectors' => [
+					'{{WRAPPER}} .work-bg:after' => 'background: {{VALUE}};'
+				],
 			]
 		);
 
@@ -321,7 +367,7 @@ class AabotService extends \Elementor\Widget_Base
 		extract($settings);
 		?>
 
-		<div id="service" class="service-area">
+		<div class="work-area">
 			<div class="container">
 				<?php if ( $settings['show_heading'] == true) : ?>
 					<div class="row justify-content-center">
@@ -344,53 +390,34 @@ class AabotService extends \Elementor\Widget_Base
 						</div>
 					</div>
 				<?php endif; ?>
-
+			</div>
+			<div class="container work-bg">
 				<div class="row">
-					<?php foreach ($settings['services'] as $item) :
-
-						$this->add_render_attribute(
-							[
-								'service-btn-attr' => [
-									'class' => [
-										'a-btn',
-									],
-									'href' => $item['service_btn_url']['url'] ? esc_url($item['service_btn_url']['url']) : '#',
-									'target' => $item['service_btn_url']['is_external'] ? '_blank' : '_self'
-								]
-							], '', '', true
-						);
-
-						?>
-						<div class="col-xl-4 col-lg-4 col-md-6">
-							<!-- start service -->
-							<div class="service-wrap mt-40 mb-40">
+					<?php foreach ($settings['works'] as $item) : ?>
+						<div class="col-xl-4 col-lg-4">
+							<!-- start skill -->
+							<div class="work-wrap mb-md-30 mb-xs-30">
 								<?php
-								if (('' !== $item['service_icon']) && ($settings['show_icon'])) : ?>
-									<div class="icon">
-										<i class="<?php echo wp_kses_post($item['service_icon']); ?>"></i>
-									</div>
+								if (('' !== $item['work_number']) && ($settings['show_number'])) : ?>
+									<span class="count <?php echo esc_attr($item['number_color']); ?>"
+									      style="background: <?php if ($item['number_color'] == 'custom'){echo esc_attr($item['number_custom_color']);} ?>">
+										<?php echo wp_kses_post($item['work_number']); ?>
+									</span>
 								<?php endif; ?>
 
-								<div class="details">
-									<?php if (('' !== $item['service_title']) && ($settings['show_title'])) : ?>
-										<h4><?php echo wp_kses_post($item['service_title']); ?></h4>
+								<div class="work-details">
+									<?php if (('' !== $item['work_title']) && ($settings['show_title'])) : ?>
+										<h4><?php echo wp_kses_post($item['work_title']); ?></h4>
 									<?php endif; ?>
-
-									<?php if (('' !== $item['service_content']) && ($settings['show_content'])) : ?>
-										<p><?php echo wp_kses_post($item['service_content']); ?></p>
+									<?php if (('' !== $item['work_content']) && ($settings['show_content'])) : ?>
+										<p><?php echo wp_kses_post($item['work_content']); ?></p>
 									<?php endif; ?>
-
-									<?php if ((!empty($item['service_btn_url']['url'])) && ($settings['show_button'])): ?>
-										<a <?php echo $this->get_render_attribute_string('service-btn-attr'); ?>>
-											<i class="far fa-arrow-right"></i> <?php echo esc_html($item['service_btn_text']); ?>
-										</a>
-									<?php endif; ?>
-
 								</div>
 							</div>
-							<!-- end service -->
+							<!-- end skill -->
 						</div>
 					<?php endforeach; ?>
+
 				</div>
 			</div>
 		</div>

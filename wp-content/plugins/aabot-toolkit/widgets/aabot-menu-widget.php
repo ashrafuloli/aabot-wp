@@ -9,17 +9,17 @@
 	 * @version 	1.0.0
 	 * @extends 	WP_Widget
 	 */
-	add_action('widgets_init', 'bdevs_menu_widget');
-	function bdevs_menu_widget() {
-		register_widget('bdevs_menu_widget');
+	add_action('widgets_init', 'aabot_menu_widget');
+	function aabot_menu_widget() {
+		register_widget('aabot_menu_widget');
 	}
 	
 	
-	class Bdevs_Menu_Widget  extends WP_Widget{
+	class Aabot_Menu_Widget  extends WP_Widget{
 		
 		public function __construct(){
-			parent::__construct('bdevs_menu_widget',esc_html__('Medidove Footer Menu','bdevs-toolkit'),array(
-				'description' => esc_html__('Medidove Footer Menu Widget','bdevs-toolkit'),
+			parent::__construct('aabot_menu_widget',esc_html__('Medidove Footer Menu','aabot-toolkit'),array(
+				'description' => esc_html__('Medidove Footer Menu Widget','aabot-toolkit'),
 			));
 		}
 		
@@ -70,7 +70,7 @@
 
 			?>
 			<p>
-				<label for="title"><?php esc_html_e('Title:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Title:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('title')); ?>"  name="<?php print esc_attr($this->get_field_name('title')); ?>" value="<?php print esc_attr($title); ?>">
 

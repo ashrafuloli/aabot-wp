@@ -9,17 +9,17 @@
 	 * @version 	1.0.0
 	 * @extends 	WP_Widget
 	 */
-	add_action('widgets_init', 'bdevs_request_service_widget');
-	function bdevs_request_service_widget() {
-		register_widget('bdevs_request_service_widget');
+	add_action('widgets_init', 'aabot_request_service_widget');
+	function aabot_request_service_widget() {
+		register_widget('aabot_request_service_widget');
 	}
 	
 	
-	class Bdevs_Request_Service_Widget  extends WP_Widget{
+	class Aabot_Request_Service_Widget  extends WP_Widget{
 		
 		public function __construct(){
-			parent::__construct('bdevs_request_service_widget',esc_html__('MediDove Request Info','bdevs-toolkit'),array(
-				'description' => esc_html__('MediDove Request Info Widget','bdevs-toolkit'),
+			parent::__construct('aabot_request_service_widget',esc_html__('MediDove Request Info','aabot-toolkit'),array(
+				'description' => esc_html__('MediDove Request Info Widget','aabot-toolkit'),
 			));
 		}
 		
@@ -58,12 +58,12 @@
 			$mailchimp_shortcode  = isset($instance['mailchimp_shortcode'])? $instance['mailchimp_shortcode']:'';
 			?>
 			<p>
-				<label for="title"><?php esc_html_e('Title:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Title:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('title')); ?>"  class="widefat" name="<?php print esc_attr($this->get_field_name('title')); ?>" value="<?php print esc_attr($title); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Mailchimp Shortcode:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Mailchimp Shortcode:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('mailchimp_shortcode')); ?>" class="widefat" name="<?php print esc_attr($this->get_field_name('mailchimp_shortcode')); ?>" value="<?php print esc_attr($mailchimp_shortcode); ?>">
 			

@@ -18,8 +18,8 @@
 	class Medidove_Extra_Info_Widget  extends WP_Widget{
 		
 		public function __construct(){
-			parent::__construct('medidove_extra_info_widget',esc_html__('MediDove Extra Info', 'bdevs-toolkit'),array(
-				'description' => esc_html__('MediDove Extra Info Widget', 'bdevs-toolkit'),
+			parent::__construct('medidove_extra_info_widget',esc_html__('MediDove Extra Info', 'aabot-toolkit'),array(
+				'description' => esc_html__('MediDove Extra Info Widget', 'aabot-toolkit'),
 			));
 		}
 		
@@ -54,7 +54,7 @@
                             <img src="<?php print get_template_directory_uri(); ?>/img/icon/footer-co-icon-2.png" alt="">
                         </div>
                         <div class="footer-co-content">
-                            <span><?php print esc_html_e('do you have a question?', 'bdevs-toolkit'); ?></span>
+                            <span><?php print esc_html_e('do you have a question?', 'aabot-toolkit'); ?></span>
                             <h4><?php print esc_html($email); ?></h4>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                     <?php endif; ?>
                         <div class="footer-co-content">
                         	<?php if(!empty($facebook) OR !empty($twitter) OR !empty($instagram) OR !empty($youtube) OR !empty($pinterest)): ?>
-                            <span><?php print esc_html_e('socials network', 'bdevs-toolkit'); ?></span>
+                            <span><?php print esc_html_e('socials network', 'aabot-toolkit'); ?></span>
                         	<?php endif; ?>
                             <ul>
 	                        <?php if( !empty($facebook) ) : ?>
@@ -123,47 +123,47 @@
 			$pinterest  = isset($instance['pinterest'])? $instance['pinterest']:'';
 			?>
 			<p>
-				<label for="title"><?php esc_html_e('Title:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Title:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('title')); ?>"  name="<?php print esc_attr($this->get_field_name('title')); ?>" class="widefat" value="<?php print esc_attr($title); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Time :','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Time :','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('time')); ?>"  name="<?php print esc_attr($this->get_field_name('time')); ?>" class="widefat" value="<?php print esc_attr($time); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Phone Number:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Phone Number:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('phone_number')); ?>"  name="<?php print esc_attr($this->get_field_name('phone_number')); ?>" class="widefat" value="<?php print esc_attr($phone_number); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Email Address:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Email Address:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('email')); ?>"  name="<?php print esc_attr($this->get_field_name('email')); ?>" class="widefat" value="<?php print esc_attr($email); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Facebook:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Facebook:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('facebook')); ?>"  name="<?php print esc_attr($this->get_field_name('facebook')); ?>" value="<?php print esc_attr($facebook); ?>">
 
 
 			<p>
-				<label for="title"><?php esc_html_e('Twitter:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Twitter:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('twitter')); ?>"  name="<?php print esc_attr($this->get_field_name('twitter')); ?>" value="<?php print esc_attr($twitter); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Instagram:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Instagram:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('instagram')); ?>"  name="<?php print esc_attr($this->get_field_name('instagram')); ?>" value="<?php print esc_attr($instagram); ?>">
 			<p>
-				<label for="title"><?php esc_html_e('Youtube:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Youtube:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('youtube')); ?>"  name="<?php print esc_attr($this->get_field_name('youtube')); ?>" value="<?php print esc_attr($youtube); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Pinterest:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Pinterest:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('pinterest')); ?>"  name="<?php print esc_attr($this->get_field_name('pinterest')); ?>" value="<?php print esc_attr($pinterest); ?>">
 			

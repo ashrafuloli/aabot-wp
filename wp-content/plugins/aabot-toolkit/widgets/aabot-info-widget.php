@@ -9,17 +9,17 @@
 	 * @version 	1.0.0
 	 * @extends 	WP_Widget
 	 */
-	add_action('widgets_init', 'bdevs_profile_widget');
-	function bdevs_profile_widget() {
-		register_widget('bdevs_profile_widget');
+	add_action('widgets_init', 'aabot_profile_widget');
+	function aabot_profile_widget() {
+		register_widget('aabot_profile_widget');
 	}
 	
 	
-	class Bdevs_Profile_Widget  extends WP_Widget{
+	class Aabot_Profile_Widget  extends WP_Widget{
 		
 		public function __construct(){
-			parent::__construct('bdevs_profile_widget',esc_html__('MediDove Footer Info','bdevs-toolkit'),array(
-				'description' => esc_html__('MediDove Footer Info Widget','bdevs-toolkit'),
+			parent::__construct('aabot_profile_widget',esc_html__('MediDove Footer Info','aabot-toolkit'),array(
+				'description' => esc_html__('MediDove Footer Info Widget','aabot-toolkit'),
 			));
 		}
 		
@@ -96,7 +96,7 @@
 
 			?>
 			<p>
-				<label for="title"><?php esc_html_e('Title:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Title:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('title')); ?>"  name="<?php print esc_attr($this->get_field_name('title')); ?>" class="widefat" value="<?php print esc_attr($title); ?>">
 
@@ -116,37 +116,37 @@
 				</div>	
 			</p>
 			<p>
-				<label for="title"><?php esc_html_e('Short Description:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Short Description:','aabot-toolkit'); ?></label>
 			</p>
 
 			<textarea class="widefat" rows="7" cols="15" id="<?php print esc_attr($this->get_field_id('description')); ?>" value="<?php print esc_attr($description); ?>" name="<?php print esc_attr($this->get_field_name('description')); ?>"><?php print esc_attr($description); ?></textarea>
 
 			<p>
-				<label for="title"><?php esc_html_e('Email Address:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Email Address:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('email_address')); ?>"  name="<?php print esc_attr($this->get_field_name('email_address')); ?>" class="widefat" value="<?php print esc_attr($email_address); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Phone Number:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Phone Number:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('phone_number')); ?>"  name="<?php print esc_attr($this->get_field_name('phone_number')); ?>" class="widefat" value="<?php print esc_attr($phone_number); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Facebook:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Facebook:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('facebook')); ?>"  name="<?php print esc_attr($this->get_field_name('facebook')); ?>" class="widefat" value="<?php print esc_attr($facebook); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Twitter:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Twitter:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('twitter')); ?>"  name="<?php print esc_attr($this->get_field_name('twitter')); ?>" class="widefat" value="<?php print esc_attr($twitter); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('instagram:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('instagram:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('instagram')); ?>"  name="<?php print esc_attr($this->get_field_name('instagram')); ?>" class="widefat" value="<?php print esc_attr($instagram); ?>">
 			<p>
-				<label for="title"><?php esc_html_e('google_plus:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('google_plus:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('google_plus')); ?>"  name="<?php print esc_attr($this->get_field_name('google_plus')); ?>" class="widefat" value="<?php print esc_attr($google_plus); ?>">
 			

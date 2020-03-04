@@ -3,7 +3,7 @@
         <div class="container">
 			<?php if( have_posts() ):
 					while( have_posts() ): the_post();
-						$bdevs_portfolio_thumb = get_post_meta(get_the_ID(),'portfolio_thumb',true);
+						$aabot_portfolio_thumb = get_post_meta(get_the_ID(),'portfolio_thumb',true);
 						$project_images_gallerys = get_post_meta(get_the_ID(),'project_images',true);
 						$company_name = get_post_meta(get_the_ID(),'company_name',true);
 						$company_location = get_post_meta(get_the_ID(),'company_location',true);
@@ -15,23 +15,23 @@
 			                    <div class="project-status mb-30">
 			                        <ul>
 			                        	<?php if ($portfolio_date) : ?>
-			                            <li><b><?php esc_html_e('Date:', 'bdevs-toolkit'); ?></b> <span><?php print ($portfolio_date!='')?date('F, Y',strtotime($portfolio_date)):''; ?></span></li>
+			                            <li><b><?php esc_html_e('Date:', 'aabot-toolkit'); ?></b> <span><?php print ($portfolio_date!='')?date('F, Y',strtotime($portfolio_date)):''; ?></span></li>
 										<?php endif; ?>	
 
 										<?php if ($company_location) : ?>
-			                            <li><b><?php esc_html_e('Location:', 'bdevs-toolkit'); ?></b> <span><?php print ($company_location!='') ? $company_location: ''; ?></span></li>
+			                            <li><b><?php esc_html_e('Location:', 'aabot-toolkit'); ?></b> <span><?php print ($company_location!='') ? $company_location: ''; ?></span></li>
 										<?php endif; ?>	
 
 										<?php if ($company_name) : ?>
-			                            <li><b><?php esc_html_e('Client:', 'bdevs-toolkit'); ?></b> 
+			                            <li><b><?php esc_html_e('Client:', 'aabot-toolkit'); ?></b>
 			                            	<span><?php print ($company_name!='') ? $company_name: ''; ?></span>
 			                            </li>
 										<?php endif; ?>	
 
-			                            <li><b><?php esc_html_e('Category:', 'bdevs-toolkit'); ?></b> <span><?php print bdevs_get_terms(get_the_ID(), 'portfolio_categories'); ?></span></li>	
+			                            <li><b><?php esc_html_e('Category:', 'aabot-toolkit'); ?></b> <span><?php print aabot_get_terms(get_the_ID(), 'portfolio_categories'); ?></span></li>
 
 										<?php if ($project_link) : ?>
-			                            <li><b><?php esc_html_e('Project Link:', 'bdevs-toolkit'); ?></b> <span><?php print ($project_link!='') ? $project_link: ''; ?></span></li>
+			                            <li><b><?php esc_html_e('Project Link:', 'aabot-toolkit'); ?></b> <span><?php print ($project_link!='') ? $project_link: ''; ?></span></li>
 										<?php endif; ?>	
 			                        </ul>
 			                    </div>
@@ -40,7 +40,7 @@
 			                <div class="col-xl-8 col-lg-8">
 			                	<div class="project-details-content">
 				                    <div class="project-desc mb-30">
-				                        <img src="<?php print esc_attr($bdevs_portfolio_thumb); ?>" alt="<?php the_title(); ?>" />
+				                        <img src="<?php print esc_attr($aabot_portfolio_thumb); ?>" alt="<?php the_title(); ?>" />
 				                    </div>
 				                    <div class="project-desc mb-30">
 				                        <?php the_content(); ?>
@@ -54,7 +54,7 @@
 							            	foreach ($project_images_gallerys as $key => $image) { ?>
 							            	<div class="col-xl-6 col-lg-6 col-md-6">
 							                    <div class="project-desc mb-30">
-							                    	<?php print wp_get_attachment_image( $key, 'bdevs-gallery-thumb'); 
+							                    	<?php print wp_get_attachment_image( $key, 'aabot-gallery-thumb');
 							                    	?>
 							                    </div>
 							                </div>

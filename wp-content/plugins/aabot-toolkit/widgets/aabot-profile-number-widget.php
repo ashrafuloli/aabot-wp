@@ -20,8 +20,8 @@
 	class Medidove_Profile_Number_Widget  extends WP_Widget{
 		
 		public function __construct(){
-			parent::__construct('medidove_profile_number_widget',esc_html__('Medidove Info Number Widget','bdevs-toolkit'),array(
-				'description' => esc_html__('Medidove Profile Number Widget','bdevs-toolkit'),
+			parent::__construct('medidove_profile_number_widget',esc_html__('Medidove Info Number Widget','aabot-toolkit'),array(
+				'description' => esc_html__('Medidove Profile Number Widget','aabot-toolkit'),
 			));
 		}
 		
@@ -99,7 +99,7 @@
 			$phone_number  = isset($instance['phone_number'])? $instance['phone_number']:'';
 			?>
 			<p>
-				<label for="title"><?php esc_html_e('Title:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Title:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('title')); ?>"  name="<?php print esc_attr($this->get_field_name('title')); ?>" value="<?php print esc_attr($title); ?>">
 
@@ -111,35 +111,35 @@
 				</div>	
 			</p>
 			<p>
-				<label for="title"><?php esc_html_e('Short Description:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Short Description:','aabot-toolkit'); ?></label>
 			</p>
 
 			<textarea class="widefat" rows="5" cols="5" id="<?php print esc_attr($this->get_field_id('description')); ?>" value="<?php print esc_attr($description); ?>" name="<?php print esc_attr($this->get_field_name('description')); ?>"><?php print esc_attr($description); ?></textarea>
 
 
 			<p>
-				<label for="title"><?php esc_html_e('Email Address:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Email Address:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('email_address')); ?>"  name="<?php print esc_attr($this->get_field_name('email_address')); ?>" value="<?php print esc_attr($email_address); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Website Link:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Website Link:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('website_link')); ?>"  name="<?php print esc_attr($this->get_field_name('website_link')); ?>" value="<?php print esc_attr($website_link); ?>">
 
 			<p>
-				<label for="title"><?php esc_html_e('Address info:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Address info:','aabot-toolkit'); ?></label>
 			</p>
 			<textarea class="widefat" rows="5" cols="5" id="<?php print esc_attr($this->get_field_id('address_info')); ?>" value="<?php print esc_attr($address_info); ?>" name="<?php print esc_attr($this->get_field_name('address_info')); ?>"><?php print esc_attr($address_info); ?></textarea>
 
 			<p>
-				<label for="title"><?php esc_html_e('Phone Label:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Phone Label:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('phone_label')); ?>"  name="<?php print esc_attr($this->get_field_name('phone_label')); ?>" value="<?php print esc_attr($phone_label); ?>">
 
 			
 			<p>
-				<label for="title"><?php esc_html_e('Phone Number:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Phone Number:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" class="widefat" id="<?php print esc_attr($this->get_field_id('phone_number')); ?>"  name="<?php print esc_attr($this->get_field_name('phone_number')); ?>" value="<?php print esc_attr($phone_number); ?>">
 

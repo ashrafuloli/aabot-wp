@@ -9,17 +9,17 @@
 	 * @version 	1.0.1
 	 * @extends 	WP_Widget
 	 */
-	add_action('widgets_init', 'bdevs_subscriber_widget');
-	function bdevs_subscriber_widget() {
-		register_widget('bdevs_subscriber_widget');
+	add_action('widgets_init', 'aabot_subscriber_widget');
+	function aabot_subscriber_widget() {
+		register_widget('aabot_subscriber_widget');
 	}
 	
 	
-	class Bdevs_Subscriber_Widget  extends WP_Widget{
+	class Aabot_Subscriber_Widget  extends WP_Widget{
 		
 		public function __construct(){
-			parent::__construct('bdevs_subscriber_widget',esc_html__('MediDove Subscriber','bdevs-toolkit'),array(
-				'description' => esc_html__('MediDove Subscriber Widget','bdevs-toolkit'),
+			parent::__construct('aabot_subscriber_widget',esc_html__('MediDove Subscriber','aabot-toolkit'),array(
+				'description' => esc_html__('MediDove Subscriber Widget','aabot-toolkit'),
 			));
 		}
 		
@@ -72,7 +72,7 @@
 			$author_img  = isset($instance['image_box_image'])? $instance['image_box_image']:'';
 			?>
 			<p>
-				<label for="title"><?php esc_html_e('Title:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Title:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('title')); ?>"  class="widefat" name="<?php print esc_attr($this->get_field_name('title')); ?>" value="<?php print esc_attr($title); ?>">
 
@@ -84,12 +84,12 @@
 				</div>	
 			</p>
 			<p>
-				<label for="<?php print esc_attr($this->get_field_id('hide_logo')); ?>"><?php esc_html_e('Hide Logo : ','bdevs-toolkit'); ?></label>
+				<label for="<?php print esc_attr($this->get_field_id('hide_logo')); ?>"><?php esc_html_e('Hide Logo : ','aabot-toolkit'); ?></label>
 				<input type="checkbox" name="<?php print esc_attr($this->get_field_name('hide_logo')); ?>" id="<?php print esc_attr($this->get_field_id('hide_logo')); ?>" <?php print $checked; ?>>
 			</p>
 
 			<p>
-				<label for="title"><?php esc_html_e('Mailchimp Shortcode:','bdevs-toolkit'); ?></label>
+				<label for="title"><?php esc_html_e('Mailchimp Shortcode:','aabot-toolkit'); ?></label>
 			</p>
 			<input type="text" id="<?php print esc_attr($this->get_field_id('mailchimp_shortcode')); ?>" class="widefat" name="<?php print esc_attr($this->get_field_name('mailchimp_shortcode')); ?>" value="<?php print esc_attr($mailchimp_shortcode); ?>">
 			

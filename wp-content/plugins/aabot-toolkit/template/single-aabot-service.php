@@ -15,7 +15,7 @@ get_header(); ?>
                     <?php 
                         $q = new WP_Query(array(
                             'posts_per_page' => 6,
-                            'post_type' => 'bdevs-service',
+                            'post_type' => 'aabot-service',
                             'post__not_in'=>array(get_the_ID())
                         ));
                         if($q->have_posts()):
@@ -38,12 +38,12 @@ get_header(); ?>
 			if( have_posts() ):
 				while( have_posts() ): the_post();
 					$service_subtitle = get_post_meta(get_the_ID(),'service_subtitle',true);
-					$bdevs_service_thumb = get_post_meta(get_the_ID(),'service_thumb',true);
+					$aabot_service_thumb = get_post_meta(get_the_ID(),'service_thumb',true);
 					?>
                 <article class="service-details-box">
-                    <?php if($bdevs_service_thumb) : ?>
+                    <?php if($aabot_service_thumb) : ?>
                     <div class="service-details-thumb mb-30">
-                        <img src="<?php print wp_kses_post( $bdevs_service_thumb ); ?>" alt="Details Image">
+                        <img src="<?php print wp_kses_post( $aabot_service_thumb ); ?>" alt="Details Image">
                     </div>
                     <?php endif; ?>
                     <div class="service-details-text mb-30">
