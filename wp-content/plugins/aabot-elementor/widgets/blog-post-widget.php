@@ -90,24 +90,64 @@ class AabotBlogPost extends \Elementor\Widget_Base {
 		);
 
 		$this->add_control(
-			'sub_heading',
+			'section_heading',
 			[
-				'label'       => __( 'Sub Heading', 'aabot-elementor' ),
+				'label'       => __( 'Section Heading', 'aabot-elementor' ),
 				'type'        => Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter your prefix Heading', 'aabot-elementor' ),
-				'default'     => __( 'Awesome Features', 'aabot-elementor' ),
+				'default'     => __( 'News Feeds', 'aabot-elementor' ),
 			]
 		);
 
 		$this->add_control(
-			'heading',
+			'section_description',
 			[
-				'label'       => __( 'Heading', 'aabot-elementor' ),
+				'label'       => __( 'Section Description', 'aabot-elementor' ),
 				'type'        => Controls_Manager::TEXTAREA,
-				'placeholder' => __( 'Enter your heading', 'aabot-elementor' ),
-				'default'     => __( 'It is Heading', 'aabot-elementor' ),
+				'default'     => __( 'Lorem ipsum dolor sit amet, consectetur.', 'aabot-elementor' ),
 			]
-		);	
+		);
+
+		$this->add_control(
+			'section_bg',
+			[
+				'label'   => esc_html__( 'Section Background', 'aabot-elementor' ),
+				'type'    => Controls_Manager::MEDIA,
+				'dynamic' => [ 'active' => true ],
+				'description' => esc_html__( 'Add your Section Background', 'aabot-elementor' ),
+			]
+		);
+
+		$this->add_control(
+			'section_bg_overlay',
+			[
+				'label' => __( 'Background Overlay', 'elementor' ),
+				'type' => Controls_Manager::COLOR,
+				'default' => '',
+				'selectors' => [
+					'{{WRAPPER}} .news-area:before' => 'background: {{VALUE}};',
+				],
+			]
+		);
+
+		$this->add_control(
+			'section_bg_overlay_opacity',
+			[
+				'label' => __( 'Background Overlay Opacity', 'elementor' ),
+				'type' => Controls_Manager::SLIDER,
+				'default' => [
+					'size' => .5,
+				],
+				'range' => [
+					'px' => [
+						'max' => 1,
+						'step' => 0.01,
+					],
+				],
+				'selectors' => [
+					'{{WRAPPER}} > .news-area:before' => 'opacity: {{SIZE}};',
+				],
+			]
+		);
 
 		$this->end_controls_section();
 
@@ -143,16 +183,6 @@ class AabotBlogPost extends \Elementor\Widget_Base {
 					'12' => esc_html__( '8', 'aabot-elementor' ),
 				],
 				'default'   => '2',
-			]
-		);
-
-		$this->add_control(
-			'cat',
-			[
-				'label'       => __( 'Category Slug', 'aabot-elementor' ),
-				'type'        => Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter category slug here...', 'aabot-elementor' ),
-				'label_block' => true,
 			]
 		);
 
@@ -194,6 +224,15 @@ class AabotBlogPost extends \Elementor\Widget_Base {
 			]
 		);
 
+		$this->add_control(
+			'section_heading_switch',
+			[
+				'label'   => esc_html__( 'Show Section Heading', 'aabot-elementor' ),
+				'type'    => Controls_Manager::SWITCHER,
+				'default' => 'yes',
+			]
+		);
+
 		$this->end_controls_section();
 
 	}
@@ -203,88 +242,85 @@ class AabotBlogPost extends \Elementor\Widget_Base {
 		$settings  = $this->get_settings_for_display(); 
 		extract($settings);
 
-	    $cat = get_term_by('slug', $cat, 'category');
-
-	    if( !empty($cat->term_id) ){
-	        $term_id = $cat->term_id;
-	    }else{
-	        $term_id = 1;
-	    }
+		$section_bg_src = wp_get_attachment_image_src( $settings['section_bg']['id'], 'full' );
+		$section_bg = $section_bg_src ? $section_bg_src[0] : '';
 
 		?>
+		<?php if ($settings['section_heading_switch']) : ?>
+		<div id="news" class="news-area pt-100" style="background-image: url(<?php print esc_url($section_bg); ?>)">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 mb-60">
+						<!-- start section title -->
+						<div class="section-title text-center light-title">
+							<?php if ($settings['section_heading']) : ?>
+								<h3><?php echo wp_kses_post($settings['section_heading']); ?></h3>
+							<?php endif; ?>
 
-        <section class="blog-area pt-115 pb-160">
-            <div class="container">
+							<?php if ($settings['section_description']) : ?>
+								<p><?php echo wp_kses_post($settings['section_description']); ?></p>
+							<?php endif; ?>
+						</div>
+						<!-- end section title -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php endif; ?>
 
-            	<?php if (( $settings['sub_heading'] ) || ( $settings['heading'] )) : ?>
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="section-title text-center mb-70">
-                            <span class="sub-title"><?php echo wp_kses_post($settings['sub_heading']); ?></span>
-                            <h2 class="title"><?php echo wp_kses_post($settings['heading']); ?></h2>
-                        </div>
-                    </div>
-                </div>
-                <?php endif; ?>
+		<div class="blog-area">
+			<div class="container">
+				<div class="row">
+					<?php
+					$q = new \WP_Query(array(
+						'post_type'     => 'post',
+						'posts_per_page'=> $settings['number'],
+						'orderby'       => 'menu_order title',
+						'order'         => $settings['order'],
+					));
 
-                <div class="row">
-                	<?php 
-	                $q = new \WP_Query(array(
-	                    'post_type'     => 'post',
-	                    'posts_per_page'=> $number,
-	                    'orderby'       => 'menu_order title',
-	                    'order'         => $order,
-	                    'tax_query' => array(
-	                        array(
-	                            'taxonomy' => 'post_format',
-	                            'field'    => 'slug',
-								'terms' => array( 
-					                'post-format-image', 
-					            ),
-	                            'operator' => 'IN',
-	                        ),
-	                    ),
-	                ));
+					if($q->have_posts()):
+						while($q->have_posts()): $q->the_post();  ?>
+							<div class="col-xl-4 col-lg-4 col-md-6">
+								<!-- start skill -->
+								<div class="blog-wrap">
+									<?php if(has_post_thumbnail()): ?>
+										<div class="blog-thumb">
+											<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('aabot-blog-thumb'); ?></a>
+										</div>
+									<?php endif; ?>
+									<div class="blog-details">
+										<ul class="blog-meta">
+											<li>
+												<a href="<?php print esc_url(get_day_link('y','m','j'))?>"><i class="fal fa-calendar-alt"></i> <?php print esc_html(get_the_date('jS F Y'))?></a>
+											</li>
+											<li>
+												<a href="<?php print esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>">
+													<i class="fal fa-user"></i> <?php print get_the_author(); ?>
+												</a>
+											</li>
+										</ul>
+										<h3 class="blog-title">
+											<a href="<?php the_permalink(); ?>"><?php print wp_trim_words(the_title(), 6, ''); ?></a>
+										</h3>
+										<p>
+											<?php print wp_trim_words(get_the_content(), 18, ''); ?>
+										</p>
+										<div class="tags">
+											<?php echo get_the_category_list(esc_html_x(' ', 'Used between list items, there is a space after the comma.', 'aabot-elementor')); ?>
+										</div>
+									</div>
+								</div>
+								<!-- end skill -->
+							</div>
+						<?php endwhile;
+						wp_reset_postdata();
+					endif;
+					?>
 
-	                if($q->have_posts()):
-	                    while($q->have_posts()): $q->the_post();  ?>
-                    <div class="col-xl-6 col-lg-4 col-md-6">
-                        <div class="single-blog wow fadeInLeft" data-wow-delay="0.2s">
-                        	<?php if(has_post_thumbnail()): ?>
-                            <div class="blog-thumb">
-                                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('hexi-blog-thumb'); ?></a>
-                            </div>
-                            <?php endif; ?>
-                            <div class="blog-content">
-                            	<div class="blog-s-meta mb-20">
-	                                <span>
-	                                	<a href="<?php print esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>">
-								            <i class="far fa-user"></i> <?php print get_the_author(); ?> 
-								        </a>
-	                                </span>
-	                                <span>
-		                                <a href="<?php comments_link(); ?>">
-		                                	<i class="far fa-comments"></i> <?php comments_number(); ?>
-		                                </a>
-	                                </span>
-                                </div>
-                                <h5>
-                                	<a href="<?php the_permalink(); ?>">
-                                		<?php print wp_trim_words(get_the_title(), 6, ''); ?>
-                                	</a>
-                                </h5>
-                                <a href="<?php the_permalink(); ?>"><i class="fal fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                	<?php endwhile;  
-	                    wp_reset_postdata();
-	                endif; 
-	                ?>
-                </div>
-            </div>
-        </section>
-
+				</div>
+			</div>
+		</div>
 
 	<?php
 	}
