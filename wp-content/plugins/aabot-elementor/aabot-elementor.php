@@ -282,15 +282,18 @@ final class AabotElementor {
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/counter-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/slider-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/about-widget.php';
-		require_once plugin_dir_path( __FILE__ ) . 'widgets/services-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/skills-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/video-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/work-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/blog-post-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/contact-widget.php';
+		require_once plugin_dir_path( __FILE__ ) . 'widgets/service-post-widget.php';
+		require_once plugin_dir_path( __FILE__ ) . 'widgets/portfolio-widget.php';
+
+		require_once plugin_dir_path( __FILE__ ) . 'widgets/services-widget.php';
+
 
 //		require_once plugin_dir_path( __FILE__ ) . 'widgets/portfolio.php';
-		require_once plugin_dir_path( __FILE__ ) . 'widgets/service-post-widget.php';
 
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/cta-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/testimonial-widget.php';
@@ -299,7 +302,6 @@ final class AabotElementor {
 
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/contact-info-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/experience-info-widget.php';
-		require_once plugin_dir_path( __FILE__ ) . 'widgets/portfolio-widget.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/members.php';
 		require_once plugin_dir_path( __FILE__ ) . 'widgets/subscribe-widget.php';
 

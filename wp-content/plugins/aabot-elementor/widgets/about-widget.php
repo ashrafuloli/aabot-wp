@@ -3,10 +3,7 @@
 namespace AabotElementor\Widget;
 
 use Elementor\Controls_Manager;
-use Elementor\Group_Control_Typography;
 use Elementor\Scheme_Typography;
-use Elementor\Group_Control_Border;
-use Elementor\Group_Control_Box_Shadow;
 
 /**
  * Aabot Elementor Widget.
@@ -128,6 +125,36 @@ class AabotAbout extends \Elementor\Widget_Base
 		);
 
 		$this->add_control(
+			'about_thumb_2',
+			[
+				'label' => esc_html__('About Image 2', 'aabot-elementor'),
+				'type' => Controls_Manager::MEDIA,
+				'dynamic' => ['active' => true],
+				'description' => esc_html__('Add your about image', 'aabot-elementor'),
+			]
+		);
+
+		$this->add_control(
+			'about_thumb_3',
+			[
+				'label' => esc_html__('About Image 3', 'aabot-elementor'),
+				'type' => Controls_Manager::MEDIA,
+				'dynamic' => ['active' => true],
+				'description' => esc_html__('Add your about image', 'aabot-elementor'),
+			]
+		);
+
+		$this->add_control(
+			'about_thumb_shape',
+			[
+				'label' => esc_html__('About Shape Image', 'aabot-elementor'),
+				'type' => Controls_Manager::MEDIA,
+				'dynamic' => ['active' => true],
+				'description' => esc_html__('Add your about image', 'aabot-elementor'),
+			]
+		);
+
+		$this->add_control(
 			'about_thumb_shape_color1',
 			[
 				'label' => esc_html__('Thumb 1 Shape Color', 'aabot-elementor'),
@@ -151,16 +178,6 @@ class AabotAbout extends \Elementor\Widget_Base
 				'condition' => [
 					'about_thumb_shape_color1' => 'custom'
 				],
-			]
-		);
-
-		$this->add_control(
-			'about_thumb_2',
-			[
-				'label' => esc_html__('About Image 2', 'aabot-elementor'),
-				'type' => Controls_Manager::MEDIA,
-				'dynamic' => ['active' => true],
-				'description' => esc_html__('Add your about image', 'aabot-elementor'),
 			]
 		);
 
@@ -192,16 +209,6 @@ class AabotAbout extends \Elementor\Widget_Base
 		);
 
 		$this->add_control(
-			'about_thumb_3',
-			[
-				'label' => esc_html__('About Image 3', 'aabot-elementor'),
-				'type' => Controls_Manager::MEDIA,
-				'dynamic' => ['active' => true],
-				'description' => esc_html__('Add your about image', 'aabot-elementor'),
-			]
-		);
-
-		$this->add_control(
 			'about_thumb_shape_color3',
 			[
 				'label' => esc_html__('Thumb 3 Shape Color', 'aabot-elementor'),
@@ -228,15 +235,6 @@ class AabotAbout extends \Elementor\Widget_Base
 			]
 		);
 
-		$this->add_control(
-			'about_thumb_shape',
-			[
-				'label' => esc_html__('About Shape Image', 'aabot-elementor'),
-				'type' => Controls_Manager::MEDIA,
-				'dynamic' => ['active' => true],
-				'description' => esc_html__('Add your about image', 'aabot-elementor'),
-			]
-		);
 
 		$this->add_control(
 			'hr',
