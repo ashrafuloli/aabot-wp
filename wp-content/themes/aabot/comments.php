@@ -65,7 +65,7 @@ if ( post_password_required() ) {
 <?php endif; // check for comment navigation ?>
 
 
-<div class="post-comments-form mt-45 mb-30">
+<div class="post-comments-form mb-30">
     <?php comment_form(); ?>
 </div>
         

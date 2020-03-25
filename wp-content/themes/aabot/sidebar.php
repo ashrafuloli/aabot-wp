@@ -7,9 +7,9 @@
  * @package aabot
  */
 
-if ( ! is_active_sidebar( 'right-sidebar' ) ) {
+if (!is_active_sidebar('right-sidebar')) {
 	return;
 }
 ?>
 
-<?php dynamic_sidebar( 'right-sidebar' ); ?>
+<?php dynamic_sidebar('right-sidebar'); ?>

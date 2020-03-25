@@ -23,8 +23,8 @@ function aabot_check_header() {
 function aabot_header_default() {
     $aabot_header_side = get_theme_mod('aabot_header_side');
     $aabot_header_ride_info = get_theme_mod('aabot_header_ride_info');
-    $evo_menu_column = get_theme_mod('aabot_header_ride_info') ? '7': '10' ;
-    $aabot_menu_center = get_theme_mod('aabot_header_ride_info') ? 'left': 'right' ;
+    $aabot_menu_column = get_theme_mod('aabot_header_ride_info') ? '8': '10' ;
+    $aabot_menu_right = get_theme_mod('aabot_header_ride_info') ? 'text-left': 'text-right' ;
     ?>
 
 <!-- start body overlay -->
@@ -42,12 +42,14 @@ function aabot_header_default() {
                 </div>
                 <!-- end site logo -->
             </div>
-            <div class="col-xl-8 col-lg-8 d-xl-block d-lg-block d-none">
+            <div class="col-xl-<?php print esc_attr($aabot_menu_column); ?> col-lg-<?php print esc_attr($aabot_menu_column); ?> d-xl-block d-lg-block d-none">
                 <!-- start site menu -->
-                <nav class="site-menu">
+
+                <nav class="site-menu <?php print esc_attr($aabot_menu_right); ?>">
                     <?php aabot_header_menu(); ?>
                 </nav>
                 <!-- end site menu -->
+
             </div>
             <?php if ($aabot_header_ride_info) : ?> 
             <div class="col-xl-2 col-lg-1 col-md-3 col-5 d-xl-block d-lg-block d-none">
@@ -475,32 +477,32 @@ function aabot_header_top_menu() { ?>
  * @return [type] [description]
  */
 
-function vome_footer_social_profiles() {
-    $vome_footer_fb_url             = get_theme_mod('vome_footer_fb_url', '#');
-    $vome_footer_twitter_url       = get_theme_mod('vome_footer_twitter_url', '#');
-    $vome_footer_behance_url      = get_theme_mod('vome_footer_behance_url', '#');
-    $vome_footer_youtube_url        = get_theme_mod('vome_footer_youtube_url', '#');
-    $vome_footer_linkedin_url        = get_theme_mod('vome_footer_linkedin_url', '#');
+function aabot_footer_social_profiles() {
+    $aabot_footer_fb_url             = get_theme_mod('aabot_footer_fb_url', '#');
+    $aabot_footer_twitter_url       = get_theme_mod('aabot_footer_twitter_url', '#');
+    $aabot_footer_behance_url      = get_theme_mod('aabot_footer_behance_url', '#');
+    $aabot_footer_youtube_url        = get_theme_mod('aabot_footer_youtube_url', '#');
+    $aabot_footer_linkedin_url        = get_theme_mod('aabot_footer_linkedin_url', '#');
     ?>
         <ul class="mb-0">
-            <?php if ($vome_footer_fb_url): ?>
-            <li class="facebook"><a href="<?php print esc_url($vome_footer_fb_url); ?>"><i class="fab fa-facebook-f"></i></a></li>
+            <?php if ($aabot_footer_fb_url): ?>
+            <li class="facebook"><a href="<?php print esc_url($aabot_footer_fb_url); ?>"><i class="fab fa-facebook-f"></i></a></li>
             <?php endif; ?>
 
-            <?php if ($vome_footer_twitter_url): ?>
-            <li class="twitter"><a href="<?php print esc_url($vome_footer_twitter_url); ?>"><i class="fab fa-twitter"></i></a></li>
+            <?php if ($aabot_footer_twitter_url): ?>
+            <li class="twitter"><a href="<?php print esc_url($aabot_footer_twitter_url); ?>"><i class="fab fa-twitter"></i></a></li>
             <?php endif; ?>
 
-            <?php if ($vome_footer_behance_url): ?>
-            <li class="behance"><a href="<?php print esc_url($vome_footer_behance_url); ?>"><i class="fab fa-behance"></i></a></li>
+            <?php if ($aabot_footer_behance_url): ?>
+            <li class="behance"><a href="<?php print esc_url($aabot_footer_behance_url); ?>"><i class="fab fa-behance"></i></a></li>
             <?php endif; ?>
 
-            <?php if ($vome_footer_youtube_url): ?>
-            <li class="youtube"><a href="<?php print esc_url($vome_footer_youtube_url); ?>"><i class="fab fa-youtube"></i></a></li>
+            <?php if ($aabot_footer_youtube_url): ?>
+            <li class="youtube"><a href="<?php print esc_url($aabot_footer_youtube_url); ?>"><i class="fab fa-youtube"></i></a></li>
             <?php endif; ?>
 
-            <?php if ($vome_footer_linkedin_url): ?>
-            <li class="linkedin"><a href="<?php print esc_url($vome_footer_linkedin_url); ?>"><i class="fab fa-linkedin-in"></i></a></li>
+            <?php if ($aabot_footer_linkedin_url): ?>
+            <li class="linkedin"><a href="<?php print esc_url($aabot_footer_linkedin_url); ?>"><i class="fab fa-linkedin-in"></i></a></li>
             <?php endif; ?>
         </ul>
 <?php 
@@ -511,38 +513,38 @@ function vome_footer_social_profiles() {
 
 /**
 *
-* vome footer
+* aabot footer
 */
-add_action('vome_footer_style', 'vome_check_footer', 10);
+add_action('aabot_footer_style', 'aabot_check_footer', 10);
 
-function vome_check_footer() {
-    $vome_footer_style = get_post_meta( get_the_ID(), 'vome_choice_footer_style', true );
-    $vome_default_footer_style = get_theme_mod('choose_default_footer', 'footer-style-1' );
+function aabot_check_footer() {
+    $aabot_footer_style = get_post_meta( get_the_ID(), 'aabot_choice_footer_style', true );
+    $aabot_default_footer_style = get_theme_mod('choose_default_footer', 'footer-style-1' );
    
 
-    if( $vome_footer_style == 'footer-style-1' ) {
-        vome_footer_style_1();
+    if( $aabot_footer_style == 'footer-style-1' ) {
+        aabot_footer_style_1();
     }
-    elseif( $vome_footer_style == 'footer-style-2' ) {
-        vome_footer_style_2();
+    elseif( $aabot_footer_style == 'footer-style-2' ) {
+        aabot_footer_style_2();
     }
-    elseif( $vome_footer_style == 'footer-style-3' ) {
-        vome_footer_style_3();
+    elseif( $aabot_footer_style == 'footer-style-3' ) {
+        aabot_footer_style_3();
     }
-    elseif( $vome_footer_style == 'footer-style-4' ) {
-        vome_footer_style_4();
+    elseif( $aabot_footer_style == 'footer-style-4' ) {
+        aabot_footer_style_4();
     }
     else{
 
         /** default footer style **/
-        if($vome_default_footer_style == 'footer-style-1'){
-            vome_footer_style_1();
-        }elseif($vome_default_footer_style == 'footer-style-2'){
-           vome_footer_style_2();
-        }elseif($vome_default_footer_style == 'footer-style-3'){
-           vome_footer_style_3();
-        }elseif($vome_default_footer_style == 'footer-style-4'){
-           vome_footer_style_4();
+        if($aabot_default_footer_style == 'footer-style-1'){
+            aabot_footer_style_1();
+        }elseif($aabot_default_footer_style == 'footer-style-2'){
+           aabot_footer_style_2();
+        }elseif($aabot_default_footer_style == 'footer-style-3'){
+           aabot_footer_style_3();
+        }elseif($aabot_default_footer_style == 'footer-style-4'){
+           aabot_footer_style_4();
         }
 
     }
@@ -551,23 +553,23 @@ function vome_check_footer() {
 /**
 * footer  style 1 + default
 */
-function vome_footer_style_1() {
+function aabot_footer_style_1() {
 
-    $vome_footer_bg_url_from_page = get_post_meta( get_the_ID(), 'vome_footer_bg', true );
-    $vome_footer_bg_color_from_page = get_post_meta( get_the_ID(), 'vome_footer_bg_color', true );
-    $vome_footer_logo = get_theme_mod('vome_footer_logo',get_template_directory_uri() . '/img/logo/logo.png');
-    $vome_copyright_center =  has_nav_menu( 'footer-menu' ) ? 'col-xl-6 col-lg-6 col-md-6' : 'col-xl-12 col-lg-12 col-md-12 text-center';
+    $aabot_footer_bg_url_from_page = get_post_meta( get_the_ID(), 'aabot_footer_bg', true );
+    $aabot_footer_bg_color_from_page = get_post_meta( get_the_ID(), 'aabot_footer_bg_color', true );
+    $aabot_footer_logo = get_theme_mod('aabot_footer_logo',get_template_directory_uri() . '/img/logo/logo.png');
+    $aabot_copyright_center =  has_nav_menu( 'footer-menu' ) ? 'col-xl-6 col-lg-6 col-md-6' : 'col-xl-12 col-lg-12 col-md-12 text-center';
 
-    if( $vome_footer_bg_url_from_page ){
-            $bg_img = get_post_meta( get_the_ID(), 'vome_footer_bg', true );
+    if( $aabot_footer_bg_url_from_page ){
+            $bg_img = get_post_meta( get_the_ID(), 'aabot_footer_bg', true );
     }else{
-            $bg_img = get_theme_mod('vome_footer_bg');
+            $bg_img = get_theme_mod('aabot_footer_bg');
     }  
 
-    if( $vome_footer_bg_color_from_page ){
-            $bg_color = get_post_meta( get_the_ID(), 'vome_footer_bg_color', true );
+    if( $aabot_footer_bg_color_from_page ){
+            $bg_color = get_post_meta( get_the_ID(), 'aabot_footer_bg_color', true );
     }else{
-            $bg_color = get_theme_mod('vome_footer_bg_color');
+            $bg_color = get_theme_mod('aabot_footer_bg_color');
     }      
 
 ?>
@@ -581,7 +583,7 @@ function vome_footer_style_1() {
                     <div class="col-xl-2 col-lg-2 col-md-3">
                         <!-- start footer logo -->
                         <div class="footer-logo mb-30 f-left">
-                            <img src="<?php print esc_url($vome_footer_logo); ?>" alt="<?php esc_attr__("Footer Logo", 'aabot'); ?>">
+                            <img src="<?php print esc_url($aabot_footer_logo); ?>" alt="<?php esc_attr__("Footer Logo", 'aabot'); ?>">
                         </div>
                         <!-- end footer logo -->
                     </div>
@@ -589,7 +591,7 @@ function vome_footer_style_1() {
                     <div class="col-xl-10 col-lg-10 col-md-9">
                         <!-- start footer social -->
                         <div class="footer-social mb-80">
-                            <?php print vome_footer_social_profiles(); ?>
+                            <?php print aabot_footer_social_profiles(); ?>
                         </div>
                         <!-- end footer social -->
                     </div>
@@ -617,23 +619,12 @@ function vome_footer_style_1() {
             <div class="container">
                 <div class="footer-area-bottom">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-12 col-md-12">
                             <!-- start copyright -->
-                            <div class="copy-right">
-                                <p>Copyright © 2020 Example – All Rights Reserved</p>
+                            <div class="copy-right text-center">
+                                <p><?php print aabot_copyright_text(); ?></p>
                             </div>
                             <!-- end copyright -->
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <!-- start footer menu -->
-                            <div class="footer-menu">
-                                <ul>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Legal</a></li>
-                                    <li><a href="#">Make Request</a></li>
-                                </ul>
-                            </div>
-                            <!-- end footer menu -->
                         </div>
                     </div>
                 </div>
@@ -649,24 +640,24 @@ function vome_footer_style_1() {
 /**
 * footer  style 2
 */
-function vome_footer_style_2() {
+function aabot_footer_style_2() {
 
-    $vome_footer_bg_url_from_page = get_post_meta( get_the_ID(), 'vome_footer_bg', true );
-    $vome_footer_bg_color_from_page = get_post_meta( get_the_ID(), 'vome_footer_bg_color', true );
-    $vome_footer_2_bg_left = get_theme_mod('vome_footer_2_bg_left');
-    $vome_footer_2_bg_right = get_theme_mod('vome_footer_2_bg_right');
-    $vome_footer_2_logo = get_theme_mod('vome_footer_2_logo');
+    $aabot_footer_bg_url_from_page = get_post_meta( get_the_ID(), 'aabot_footer_bg', true );
+    $aabot_footer_bg_color_from_page = get_post_meta( get_the_ID(), 'aabot_footer_bg_color', true );
+    $aabot_footer_2_bg_left = get_theme_mod('aabot_footer_2_bg_left');
+    $aabot_footer_2_bg_right = get_theme_mod('aabot_footer_2_bg_right');
+    $aabot_footer_2_logo = get_theme_mod('aabot_footer_2_logo');
 
-    if( $vome_footer_bg_url_from_page ){
-            $bg_img = get_post_meta( get_the_ID(), 'vome_footer_bg', true );
+    if( $aabot_footer_bg_url_from_page ){
+            $bg_img = get_post_meta( get_the_ID(), 'aabot_footer_bg', true );
     }else{
-            $bg_img = get_theme_mod('vome_footer_bg');
+            $bg_img = get_theme_mod('aabot_footer_bg');
     }  
 
-    if( $vome_footer_bg_color_from_page ){
-            $bg_color = get_post_meta( get_the_ID(), 'vome_footer_bg_color', true );
+    if( $aabot_footer_bg_color_from_page ){
+            $bg_color = get_post_meta( get_the_ID(), 'aabot_footer_bg_color', true );
     }else{
-            $bg_color = get_theme_mod('vome_footer_bg_color');
+            $bg_color = get_theme_mod('aabot_footer_bg_color');
     } 
 ?>
 
@@ -677,10 +668,10 @@ function vome_footer_style_2() {
             <div class="h2-footer-area black-bg position-relative fix">
                 <!-- footer-bg -->
                 <div class="footer-left-img">
-                    <img src="<?php print esc_url($vome_footer_2_bg_left); ?>" alt="<?php print esc_attr__('Logo', 'vome'); ?>" >
+                    <img src="<?php print esc_url($aabot_footer_2_bg_left); ?>" alt="<?php print esc_attr__('Logo', 'aabot'); ?>" >
                 </div>
                 <div class="footer-right-img">
-                    <img src="<?php print esc_url($vome_footer_2_bg_right); ?>" alt="<?php print esc_attr__('Logo', 'vome'); ?>">
+                    <img src="<?php print esc_url($aabot_footer_2_bg_right); ?>" alt="<?php print esc_attr__('Logo', 'aabot'); ?>">
                 </div>
                 <!-- footer-content -->
                 <div class="h2-footer-content pt-120 pb-100">
@@ -688,15 +679,15 @@ function vome_footer_style_2() {
                         <div class="row">
                             <div class="col-xl-6 ">
                                 <div class="h2-footer-contnet-left">
-                                    <div class="footer-icon"><img src="<?php print esc_url($vome_footer_2_logo); ?>" alt="<?php print esc_attr__('Logo', 'vome'); ?>"></div>
-                                    <div class="footer-copyright"><p><?php print vome_copyright_text(); ?></p></div>
+                                    <div class="footer-icon"><img src="<?php print esc_url($aabot_footer_2_logo); ?>" alt="<?php print esc_attr__('Logo', 'aabot'); ?>"></div>
+                                    <div class="footer-copyright"><p><?php print aabot_copyright_text(); ?></p></div>
                                 </div>
                             </div>
                             <div class="col-xl-6">
                                 <div class="h2-footer-contnet-right">
                                     <?php dynamic_sidebar('footer-2-widget'); ?>
                                     <div class="h2-footer-social">
-                                        <?php print vome_footer_social_profiles(); ?>
+                                        <?php print aabot_footer_social_profiles(); ?>
                                     </div>
                                 </div>
                             </div>
@@ -713,21 +704,21 @@ function vome_footer_style_2() {
 /**
 * footer style 3
 */
-function vome_footer_style_3() {
-    $vome_footer_bg_url_from_page = get_post_meta( get_the_ID(), 'vome_footer_bg', true );
-    $vome_footer_bg_color_from_page = get_post_meta( get_the_ID(), 'vome_footer_bg_color', true );
-    $vome_footer_3_logo = get_theme_mod('vome_footer_3_logo');
+function aabot_footer_style_3() {
+    $aabot_footer_bg_url_from_page = get_post_meta( get_the_ID(), 'aabot_footer_bg', true );
+    $aabot_footer_bg_color_from_page = get_post_meta( get_the_ID(), 'aabot_footer_bg_color', true );
+    $aabot_footer_3_logo = get_theme_mod('aabot_footer_3_logo');
 
-    if( $vome_footer_bg_url_from_page ){
-            $bg_img = get_post_meta( get_the_ID(), 'vome_footer_bg', true );
+    if( $aabot_footer_bg_url_from_page ){
+            $bg_img = get_post_meta( get_the_ID(), 'aabot_footer_bg', true );
     }else{
-            $bg_img = get_theme_mod('vome_footer_bg');
+            $bg_img = get_theme_mod('aabot_footer_bg');
     }  
 
-    if( $vome_footer_bg_color_from_page ){
-            $bg_color = get_post_meta( get_the_ID(), 'vome_footer_bg_color', true );
+    if( $aabot_footer_bg_color_from_page ){
+            $bg_color = get_post_meta( get_the_ID(), 'aabot_footer_bg_color', true );
     }else{
-            $bg_color = get_theme_mod('vome_footer_bg_color');
+            $bg_color = get_theme_mod('aabot_footer_bg_color');
     } 
 ?>
 
@@ -742,13 +733,13 @@ function vome_footer_style_3() {
                             <div class="row">
                                 <div class="col-xl-2 col-lg-2 col-md-3">
                                     <div class="h3-footer-logo mb-30 f-left">
-                                        <img src="<?php print esc_url($vome_footer_3_logo); ?>" alt="<?php print esc_attr__('Logo', 'vome'); ?>">
+                                        <img src="<?php print esc_url($aabot_footer_3_logo); ?>" alt="<?php print esc_attr__('Logo', 'aabot'); ?>">
                                     </div>
                                 </div>
                                 <!-- social -->
                                 <div class="col-xl-10 col-lg-10 col-md-9">
                                     <div class="h3-footer-social f-right mb-80">
-                                        <?php print vome_footer_social_profiles(); ?>
+                                        <?php print aabot_footer_social_profiles(); ?>
                                     </div>
                                 </div>
                             </div>
@@ -779,12 +770,12 @@ function vome_footer_style_3() {
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="copy-right copy-right2 f-left">
-                                            <p><?php print vome_copyright_text(); ?></p>
+                                            <p><?php print aabot_copyright_text(); ?></p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="footer-social footer-terms f-right">
-                                            <?php print vome_footer_menu(); ?>
+                                            <?php print aabot_footer_menu(); ?>
                                         </div>
                                     </div>
                                 </div>
@@ -802,21 +793,21 @@ function vome_footer_style_3() {
 /**
 * footer style 4 
 */
-function vome_footer_style_4() {
-    $vome_footer_bg_url_from_page = get_post_meta( get_the_ID(), 'vome_footer_bg', true );
-    $vome_footer_bg_color_from_page = get_post_meta( get_the_ID(), 'vome_footer_bg_color', true );
-    $vome_footer_4_logo = get_theme_mod('vome_footer_4_logo');
+function aabot_footer_style_4() {
+    $aabot_footer_bg_url_from_page = get_post_meta( get_the_ID(), 'aabot_footer_bg', true );
+    $aabot_footer_bg_color_from_page = get_post_meta( get_the_ID(), 'aabot_footer_bg_color', true );
+    $aabot_footer_4_logo = get_theme_mod('aabot_footer_4_logo');
 
-    if( $vome_footer_bg_url_from_page ){
-            $bg_img = get_post_meta( get_the_ID(), 'vome_footer_bg', true );
+    if( $aabot_footer_bg_url_from_page ){
+            $bg_img = get_post_meta( get_the_ID(), 'aabot_footer_bg', true );
     }else{
-            $bg_img = get_theme_mod('vome_footer_bg');
+            $bg_img = get_theme_mod('aabot_footer_bg');
     }  
 
-    if( $vome_footer_bg_color_from_page ){
-            $bg_color = get_post_meta( get_the_ID(), 'vome_footer_bg_color', true );
+    if( $aabot_footer_bg_color_from_page ){
+            $bg_color = get_post_meta( get_the_ID(), 'aabot_footer_bg_color', true );
     }else{
-            $bg_color = get_theme_mod('vome_footer_bg_color');
+            $bg_color = get_theme_mod('aabot_footer_bg_color');
     } 
 ?>
 
@@ -832,13 +823,13 @@ function vome_footer_style_4() {
                             <div class="row">
                                 <div class="col-xl-5 col-lg-2 col-md-3">
                                     <div class="h4-footer-logo mb-30">
-                                        <img src="<?php print esc_url($vome_footer_4_logo); ?>" alt="Footer Logo">
+                                        <img src="<?php print esc_url($aabot_footer_4_logo); ?>" alt="Footer Logo">
                                     </div>
                                 </div>
                                 <!-- social -->
                                 <div class="col-xl-7 col-lg-10 col-md-9">
                                     <div class="h4-footer-social text-left text-md-right mb-30">
-                                        <?php print vome_footer_social_profiles(); ?>
+                                        <?php print aabot_footer_social_profiles(); ?>
                                     </div>
                                 </div>
                             </div>
@@ -857,7 +848,7 @@ function vome_footer_style_4() {
                         <div class="row">
                             <div class="col-12">
                                 <div class="copy-right text-center">
-                                    <p><?php print vome_copyright_text(); ?></p>
+                                    <p><?php print aabot_copyright_text(); ?></p>
                                 </div>
                             </div>
                         </div>

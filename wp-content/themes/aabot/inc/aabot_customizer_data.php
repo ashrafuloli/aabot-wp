@@ -310,38 +310,38 @@ function aabot_customizer( $data ) {
 						),
 						array(
 							'name' => esc_html__( 'Footer Logo', 'aabot' ),
-							'id' => 'vome_footer_logo',
+							'id' => 'aabot_footer_logo',
 							'default' => get_template_directory_uri() . '/img/logo/logo.png',
 							'type' => 'image',
 							'transport'	=> 'refresh' 
 						),
 						array(
 							'name' => esc_html__( 'Facebook Url', 'aabot' ),
-							'id' => 'vome_footer_fb_url',
+							'id' => 'aabot_footer_fb_url',
 							'default' => '#',
 							'type' => 'text' 
 						),
 						array(
 							'name' => esc_html__( 'Twitter Url', 'aabot' ),
-							'id' => 'vome_footer_twitter_url',
+							'id' => 'aabot_footer_twitter_url',
 							'default' => '#',
 							'type' => 'text' 
 						),
 						array(
 							'name' => esc_html__( 'Youtube Url', 'aabot' ),
-							'id' => 'vome_footer_youtube_url',
+							'id' => 'aabot_footer_youtube_url',
 							'default' => '#',
 							'type' => 'text' 
 						),
 						array(
 							'name' => esc_html__( 'Linkedin Url', 'aabot' ),
-							'id' => 'vome_footer_linkedin_url',
+							'id' => 'aabot_footer_linkedin_url',
 							'default' => '#',
 							'type' => 'text'
 						),						
 						array(
 							'name' => esc_html__( 'Behance Url', 'aabot' ),
-							'id' => 'vome_footer_behance_url',
+							'id' => 'aabot_footer_behance_url',
 							'default' => '#',
 							'type' => 'text'
 						),

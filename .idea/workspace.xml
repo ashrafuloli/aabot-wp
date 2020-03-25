@@ -2,153 +2,331 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a89038d-fa7b-4d35-82f9-2c31c5974e43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/assets/gray-grad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checkbase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/adminbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/badthings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/basic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/cdn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/comment_reply.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/commpage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/content-width.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/customizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/dep_recommend.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/deprecated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/deregister.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/directories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/filenames.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/generated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/gravatar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/lineendings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/malware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/more_deprecated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/navmenu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/phpshort.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/plugin-territory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/post-formats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/postsnav.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/searchform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/style_needed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/style_suggested.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/textdomain.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/themeforest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/title.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/uri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/widgets.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/checks/worms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/theme-check-cli.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/envato-theme-check-master/theme-check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/which-addon-for-elementor/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/which-addon-for-elementor/assets/css/which-elementor-addon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/which-addon-for-elementor/assets/css/which-elementor-addon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/which-addon-for-elementor/assets/js/which-elementor-addon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/which-addon-for-elementor/assets/js/which-elementor-addon.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/which-addon-for-elementor/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/which-addon-for-elementor/which-addon-for-elementor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b1-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b1-270x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b1-300x195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b1-450x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b1-570x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b1-740x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b1-768x499.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b2-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b2-270x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b2-300x195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b2-450x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b2-570x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b2-740x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b2-768x499.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b3-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b3-270x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b3-300x195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b3-450x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b3-570x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b3-740x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b3-768x499.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b5-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b5-270x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b5-300x195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b5-450x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b5-570x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b5-740x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b5-768x499.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b6-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b6-270x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b6-300x195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b6-450x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b6-570x270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b6-740x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b6-768x499.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/b6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-1-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-1-270x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-1-300x231.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-2-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-2-270x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-2-300x231.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-3-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-3-270x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-3-300x231.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-4-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-4-270x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-4-300x231.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-5-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-5-270x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-5-300x231.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-6-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-6-270x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-6-300x231.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/portfolio-6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/monster-widget/images/bikes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/monster-widget/monster-widget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/monster-widget/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/monster-widget/screenshot-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/monster-widget/screenshot-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/monster-widget/screenshot-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-importer/class-wp-import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-importer/compat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-importer/parsers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-importer/parsers/class-wxr-parser-regex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-importer/parsers/class-wxr-parser-simplexml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-importer/parsers/class-wxr-parser-xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-importer/parsers/class-wxr-parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-importer/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-importer/wordpress-importer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/canola2-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/canola2-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/canola2-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/canola2-450x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/canola2-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/canola2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050727_091048_222-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050727_091048_222-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050727_091048_222-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050727_091048_222-450x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050727_091048_222-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050727_091048_222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050813_115856_52-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050813_115856_52-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050813_115856_52-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050813_115856_52-450x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050813_115856_52-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/01/dsc20050813_115856_52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5478.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/100_5540.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/cep00032-1024x819.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/cep00032-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/cep00032-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/cep00032-300x240.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/cep00032-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/cep00032-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/cep00032-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/cep00032-768x614.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/cep00032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082-1024x682.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082-1536x1023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082-300x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082-768x512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dcp_2082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc02085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc03149-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc03149-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc03149-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc03149-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc03149-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc03149-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc03149-740x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc03149-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc03149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc04563.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc09114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20050102_192118_51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102-1024x682.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102-1536x1023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102-300x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102-768x512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_160808_102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119-1024x682.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119-1536x1023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119-300x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119-768x512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dsc20051220_173257_119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/dscn3316.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0513-1-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0513-1-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0513-1-300x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0513-1-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0513-1-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0513-1-740x533.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0513-1-768x512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0513-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747-1024x682.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747-1536x1023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747-300x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747-768x512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0747.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0767-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0767-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0767-300x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0767-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0767-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0767-740x533.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0767-768x512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_0767.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399-1024x682.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399-1536x1023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399-300x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399-768x512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/img_8399.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/michelle_049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2011/07/windmill.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20040724_152504_532-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20040724_152504_532-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20040724_152504_532-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20040724_152504_532-450x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20040724_152504_532-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20040724_152504_532.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20050604_133440_34211-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20050604_133440_34211-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20050604_133440_34211-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20050604_133440_34211-450x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20050604_133440_34211-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/06/dsc20050604_133440_34211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/07/manhattansummer-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/07/manhattansummer-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/07/manhattansummer-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/07/manhattansummer-450x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/07/manhattansummer-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/07/manhattansummer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2012/07/originaldixielandjazzbandwithalbernard-stlouisblues.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-horizontal-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-horizontal-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-horizontal-300x155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-horizontal-450x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-horizontal-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-horizontal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-vertical-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-vertical-155x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-vertical-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-vertical-300x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-vertical-300x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/featured-image-vertical.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-1200x4002-1-1024x341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-1200x4002-1-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-1200x4002-1-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-1200x4002-1-300x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-1200x4002-1-450x400.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-1200x4002-1-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-1200x4002-1-740x400.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-1200x4002-1-768x256.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-1200x4002-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-150x150-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-300x200-1-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-300x200-1-270x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-300x200-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-580x300-1-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-580x300-1-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-580x300-1-300x155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-580x300-1-450x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-580x300-1-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/image-alignment-580x300-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper-1024x640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper-1536x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper-300x188.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper-768x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/soworthloving-wallpaper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper-1024x768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper-1536x1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper-740x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper-768x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/03/unicorn-wallpaper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/04/triforce-wallpaper-1024x640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/04/triforce-wallpaper-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/04/triforce-wallpaper-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/04/triforce-wallpaper-300x188.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/04/triforce-wallpaper-450x530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/04/triforce-wallpaper-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/04/triforce-wallpaper-740x707.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/04/triforce-wallpaper-768x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/04/triforce-wallpaper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20040724_152504_532-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20040724_152504_532-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20040724_152504_532-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20040724_152504_532-450x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20040724_152504_532-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20040724_152504_532.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20050604_133440_34211-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20050604_133440_34211-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20050604_133440_34211-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20050604_133440_34211-450x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20050604_133440_34211-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/09/dsc20050604_133440_34211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2013/12/2014-slider-mobile-behavior.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2014/01/dsc20050315_145007_132-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2014/01/dsc20050315_145007_132-270x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2014/01/dsc20050315_145007_132-300x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2014/01/dsc20050315_145007_132-450x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2014/01/dsc20050315_145007_132-570x270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2014/01/dsc20050315_145007_132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2014/01/spectacles-150x150.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2014/01/spectacles.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2020/03/theme-unit-test-data.xml_-1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aabot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/aabot.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-elementor/aabot-elementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-elementor/aabot-elementor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-elementor/widgets/about-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-elementor/widgets/about-widget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-elementor/widgets/portfolio-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-elementor/widgets/portfolio-widget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-elementor/widgets/service-post-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-elementor/widgets/service-post-widget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-member-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-member-post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-meta-boxes.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-meta-boxes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-portfolio-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-portfolio-post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-price-tables-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-price-tables-post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-routine-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-routine-post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-service-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/inc/aabot-service-post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/template/single-aabot-member.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/template/single-aabot-member.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/template/single-aabot-portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/template/single-aabot-portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/template/single-aabot-service.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/template/single-aabot-service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/config-validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/config-validator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/editor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/acceptance.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/acceptance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/checkbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/checkbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/constant-contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/constant-contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/file.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/file.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/number.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/number.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/recaptcha.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/recaptcha.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/select.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/select.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/textarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/textarea.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/aabot-toolkit.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/aabot-toolkit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-author-profile-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-company-profile-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-extra-info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-info-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-latest-posts-sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-latest-posts-sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-menu-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-profile-number-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-profile-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-recent-post-without-img.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-recent-post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-related-posts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-service-categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-service-request-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/aabot-toolkit/widgets/aabot-subscriber-widget.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/css/admin-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/css/admin-rtl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/css/admin-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/css/admin-rtl.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/css/admin.css" afterDir="false" />
@@ -206,19 +384,167 @@
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/core/base/document.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/core/base/document.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/core/editor/editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/core/editor/editor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/core/dynamic-tags/tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/core/dynamic-tags/tag.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/core/kits/documents/kit.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/core/kits/documents/kit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/elementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/elementor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/controls/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/controls/slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/elements/column.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/elements/column.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/elements/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/elements/section.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/frontend.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/preview.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/preview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/tabs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/text-editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/text-editor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/modules/safe-mode/module.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/modules/safe-mode/module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/modules/safe-mode/mu-plugin/elementor-safe-mode.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/modules/safe-mode/mu-plugin/elementor-safe-mode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/managers/icons.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/managers/icons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/settings/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/settings/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/accordion.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/accordion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/icon.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/icon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/toggle.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/toggle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/video.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/includes/widgets/video.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/elementor/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/elementor/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/inc/aabot_customizer_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/inc/aabot_customizer_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/inc/css/aabot-customizer-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/inc/css/aabot-customizer-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/inc/template-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/inc/template-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/page-sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/page-sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/page-templates/blog-left-sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/page-templates/blog-left-sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/page-templates/blog-three-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/page-templates/blog-three-columns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/page-templates/blog-two-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/page-templates/blog-two-columns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/biography.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/biography.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-audio.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-audio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-left-sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-left-sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-none.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-none.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-search.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-two-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-two-columns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-video.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content-video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/aabot/template-parts/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/Pe-icon-7-stroke.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/hexi-custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/css/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-SemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Gilroy-SemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Pe-icon-7-stroke.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/Pe-icon-7-stroke.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-light-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-light-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-light-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-light-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-light-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/images/faq_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/images/services_shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/logo/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/logo/logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/slider/s_slider_shape01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/slider/s_slider_shape02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/slider/slider_shape01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/img/slider/slider_shape02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/class-tgm-plugin-activation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/css/hexi-customizer-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/custom-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/hexi_add_plugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/hexi_customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/hexi_customizer_data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/hexi_navwalker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/jetpack.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/js/admin_custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/js/hexi-customizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/js/image-widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/template-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/inc/template-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/jquery.scrollUp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/js_jquery.appear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/js_jquery.knob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/one-page-nav-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/paroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/languages/hexi.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/page-sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/page-templates/blog-left-sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/page-templates/blog-three-columns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/page-templates/blog-two-columns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/biography.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-audio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-gallery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-left-sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-quote.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-three-columns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-two-columns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content-video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/hexi/template-parts/content.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/uploads/elementor/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/elementor/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/elementor/css/post-21.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/elementor/css/post-21.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +573,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins/aabot-elementor/widgets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learn-laravel/todos-app" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -283,6 +609,8 @@
       <workItem from="1583355425436" duration="7385000" />
       <workItem from="1583363517496" duration="209000" />
       <workItem from="1584223609926" duration="6160000" />
+      <workItem from="1584307514390" duration="41000" />
+      <workItem from="1585171838113" duration="4923000" />
     </task>
     <servers />
   </component>
@@ -305,16 +633,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="200" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1581162671879" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1583168820774">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1584307553642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1583007407065" />
-    <state x="740" y="276" key="FileChooserDialogImpl/1920.135.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583168820774" />
-    <state x="568" y="205" width="784" height="630" key="find.popup" timestamp="1584224804600">
+    <state x="740" y="276" key="FileChooserDialogImpl/1920.135.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1584307553642" />
+    <state x="568" y="205" width="1199" height="740" key="find.popup" timestamp="1585176034366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="568" y="205" width="784" height="630" key="find.popup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582755473147" />
-    <state x="568" y="205" width="784" height="630" key="find.popup/1920.135.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1584224804600" />
+    <state x="568" y="205" width="1199" height="740" key="find.popup/1920.135.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585176034366" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\aabot-wp</wordpressPath>

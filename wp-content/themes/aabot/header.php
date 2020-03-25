@@ -23,6 +23,7 @@
 
 <body <?php body_class('body-bg'); ?>>
     <!-- Add your site or application content here -->
+    <?php wp_body_open(); ?>
     <!-- header start -->
     <?php do_action('aabot_header_style'); ?>
     <!-- header end -->

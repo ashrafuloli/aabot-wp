@@ -193,9 +193,9 @@ function aabot_widgets_init()
 	 * Footer 3 Widget One
 	 */
 	register_sidebar(array(
-		'name' => esc_html__('Footer Widget Two', 'vome'),
+		'name' => esc_html__('Footer Widget Two', 'aabot'),
 		'id' => 'footer-widget-two',
-		'description' => esc_html__('Footer Widget Two', 'vome'),
+		'description' => esc_html__('Footer Widget Two', 'aabot'),
 		'before_widget' => '<div id="%1$s" class="footer-widget mb-30 %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widget-title">',
@@ -203,9 +203,9 @@ function aabot_widgets_init()
 	));
 
 	register_sidebar(array(
-		'name' => esc_html__('Footer Widget Three', 'vome'),
+		'name' => esc_html__('Footer Widget Three', 'aabot'),
 		'id' => 'footer-widget-three',
-		'description' => esc_html__('Footer Widget Three', 'vome'),
+		'description' => esc_html__('Footer Widget Three', 'aabot'),
 		'before_widget' => '<div id="%1$s" class="footer-widget float-xl-right float-lg-right float-md-right mb-30 %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widget-title">',

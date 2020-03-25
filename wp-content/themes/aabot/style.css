@@ -39,6 +39,16 @@ button {
 	cursor: pointer;
 }
 
+ol {
+	list-style: decimal;
+}
+ol ol ol {
+	list-style: lower-roman;
+}
+ol ol {
+	list-style: lower-alpha;
+}
+
 .btn.focus, .btn:focus {
 	outline: 0;
 	box-shadow: none;
@@ -679,7 +689,7 @@ li .blog-footer-meta span {
 }
 
 .latest-comments ul li ul.children {
-	padding-left: 70px;
+	padding-left: 40px;
 }
 
 .latest-comments ul li ul.children {
@@ -783,7 +793,7 @@ ul {
 .postbox.sticky {
 	border: 2px solid #F26C4F;
 	position: static;
-	background: no-repeat;
+	background: #fff;
 	padding: 30px;
 }
 
@@ -1421,6 +1431,14 @@ ul.children {
 	background: #fff;
 }
 
+.project-details-content.prev-post {
+	padding-left: 40px;
+}
+
+.project-details-content.next-post {
+	padding-right: 40px;
+}
+
 .project-desc {
 	padding: 0 30px 30px;
 }
@@ -2027,7 +2045,7 @@ a.retina-logo {
 }
 
 .postbox__text {
-	padding: 0 30px 30px;
+	padding: 40px;
 }
 
 .p-50 {
@@ -2220,8 +2238,6 @@ a.retina-logo {
 .widget {
 	padding: 30px;
 	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 5px 16px 0px rgba(200, 183, 255, 0.3);
-	border-top: 4px solid #8fb569;
 }
 
 .blog-area .widget {
@@ -2524,11 +2540,9 @@ ul.cat li a:hover {
 }
 
 .blog-details-border {
-	border-top: 1px solid #eaedff;
-	border-bottom: 1px solid #eaedff;
-	padding-top: 33px;
-	padding-bottom: 23px;
-	margin-bottom: 42px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 
@@ -2570,9 +2584,6 @@ ul.cat li a:hover {
 }
 
 .post-comments {
-	border-bottom: 1px solid #eaedff;
-	margin-bottom: 42px;
-	padding-bottom: 5px;
 }
 
 .blog-coment-title h2 {
@@ -2615,7 +2626,9 @@ ul.cat li a:hover {
 }
 
 .comments-box {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
+	padding: 40px;
+	background: #fff;
 }
 
 .comments-text {
@@ -2691,7 +2704,7 @@ ul.cat li a:hover {
 
 .comment-respond {
 	margin-bottom: 20px;
-	padding: 50px 35px;
+	padding: 40px;
 	box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .09);
 	background: #fff;
 }

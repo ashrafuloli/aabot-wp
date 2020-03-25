@@ -30,7 +30,7 @@ $aabot_copyright_center = get_theme_mod('aabot_footer_social_switch') ? 'right':
     </footer> -->
     <!-- footer end --> 
 
-    <?php do_action('vome_footer_style');  ?>
+    <?php do_action('aabot_footer_style');  ?>
 
 
     <?php wp_footer(); ?>

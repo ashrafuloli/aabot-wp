@@ -79,6 +79,9 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', true );
 
+define( 'WP_SITEURL', 'http://localhost/aabot-wp' );
+define( 'WP_HOME',    'http://localhost/aabot-wp' );
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

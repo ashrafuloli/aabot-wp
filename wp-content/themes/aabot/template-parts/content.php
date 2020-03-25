@@ -11,9 +11,9 @@
 
 
 if( is_single() ): ?>
-    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-50'); ?> >
+    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-40'); ?> >
         <?php if(has_post_thumbnail()): ?>
-			<div class="postbox__thumb mb-35">
+			<div class="postbox__thumb">
 				<?php the_post_thumbnail('full', array('class' => 'img-responsive' )); ?>
 			</div>
 		<?php endif; ?>
@@ -47,9 +47,9 @@ if( is_single() ): ?>
 <?php
 else: ?>
 
-    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-50'); ?> >
+    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-40'); ?> >
         <?php if( has_post_thumbnail() ): ?>
-        <div class="postbox__thumb mb-30">
+        <div class="postbox__thumb">
             <a href="<?php the_permalink(); ?>">
                 <?php the_post_thumbnail('full', array('class' => 'img-responsive' )); ?>
             </a>

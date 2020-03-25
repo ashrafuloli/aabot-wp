@@ -8,7 +8,7 @@
  */
 
 if( is_single() ): ?>
-    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-50'); ?> >
+    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-40'); ?> >
         <?php if(has_post_thumbnail()): ?>
         <div class="postbox__video mb-35">
             <?php the_post_thumbnail('full', array('class' => 'img-responsive' )); ?>
@@ -47,7 +47,7 @@ if( is_single() ): ?>
 <?php
 else: ?>
 
-    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-50'); ?> >
+    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-40'); ?> >
         <?php if( has_post_thumbnail() ): ?>
         <div class="postbox__video mb-30">
             <?php the_post_thumbnail('full', array('class' => 'img-responsive' )); ?>

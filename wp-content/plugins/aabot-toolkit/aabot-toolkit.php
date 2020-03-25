@@ -32,17 +32,6 @@ final class Aabot_toolkit
 		/**
 		 * widgets
 		 */
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-info-widget.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-profile-number-widget.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-author-profile-widget.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-company-profile-widget.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-menu-widget.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-profile-widget.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-recent-post.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-service-request-widget.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-extra-info.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-subscriber-widget.php';
-		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-service-categories.php';
 		require_once AABOT_TOOLKIT_DIR . '/widgets/aabot-latest-posts-sidebar.php';
 
 		add_filter('template_include', array($this, '_portfolio_template_include'));

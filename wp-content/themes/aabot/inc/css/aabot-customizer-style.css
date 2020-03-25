@@ -32,7 +32,7 @@
 .switch_options span:first-of-type {
     border-radius: 2px 0 0 2px;
     border-right: 0;
-    background: blue;
+    background: #fbabab;
     color: #fff;
 }
 .switch_options span:last-of-type{
@@ -40,10 +40,11 @@
     border-left: 0;
 }
 .switch_options span:hover{
-    background: #fafafa;
+    background: #222;
+    color: #fff;
 }
 .switch_options span.selected{
-    background: #db9b2e;
-	border-color: #f7bd51
+    background: #ff6666;
+	border-color: #ff6666;
     color: #fff;
 }

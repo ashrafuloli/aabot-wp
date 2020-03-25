@@ -33,7 +33,7 @@ $blog_column = is_active_sidebar( 'right-sidebar' ) ? 8 : 12 ;
 
 								<?php if(get_previous_post_link()) : ?>
 									<div class="col-xl-6 col-lg-6 col-md-6">
-										<div class="project-details-content mb-15">
+										<div class="project-details-content prev-post mb-15">
 											<span><?php print esc_html__( 'Prev Post', 'aabot' ); ?></span>
 											<h3><?php print get_previous_post_link('%link ', '%title'); ?></h3>
 										</div>
@@ -42,7 +42,7 @@ $blog_column = is_active_sidebar( 'right-sidebar' ) ? 8 : 12 ;
 
 								<?php if(get_next_post_link()) : ?>
 									<div class="col-xl-6 col-lg-6 col-md-6">
-										<div class="project-details-content text-md-right mb-15">
+										<div class="project-details-content next-post text-md-right mb-15">
 											<span><?php print esc_html__( 'Next Post', 'aabot' ); ?></span>
 											<h3> <?php print get_next_post_link( '%link ', '%title' ); ?></h3>
 										</div>

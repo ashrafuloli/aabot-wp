@@ -8,7 +8,7 @@
  */
 
 if( is_single() ): ?>
-    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-50'); ?> >
+    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-40'); ?> >
         <?php if(get_post_meta(get_the_id(), '_audio-url', '' )) : ?>
         <div class="postbox__audio embed-responsive embed-responsive-16by9 mb-35">
             <?php echo wp_oembed_get( get_post_meta(get_the_id(), '_audio-url', true) ); ?>
@@ -44,7 +44,7 @@ if( is_single() ): ?>
 <?php
 else: ?>
 
-    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-50'); ?> >
+    <article id="post-<?php the_ID(); ?>" <?php post_class('postbox post format-image mb-40'); ?> >
         <?php if(get_post_meta(get_the_id(), '_audio-url', '' )) : ?>
         <div class="postbox__audio embed-responsive embed-responsive-16by9 mb-30">
             <?php echo wp_oembed_get( get_post_meta(get_the_id(), '_audio-url', true) ); ?>

@@ -13,8 +13,6 @@ get_header();
 <section class="blog-area pt-120 pb-80">
     <div class="container">
         <div class="row">
-			
-				
 				<?php
 					$page = ( get_query_var( 'page' ) ? get_query_var( 'page' ) : 1 );
 					$paged = ( get_query_var( 'paged' ) ? get_query_var( 'paged' ) : $page );
