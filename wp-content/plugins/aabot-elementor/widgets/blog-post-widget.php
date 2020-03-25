@@ -177,10 +177,10 @@ class AabotBlogPost extends \Elementor\Widget_Base {
 				'label'     => esc_html__( 'Post Count', 'aabot-elementor' ),
 				'type'      => Controls_Manager::SELECT,
 				'options'   => [
-					'3'  => esc_html__( '2', 'aabot-elementor' ),
-					'6' => esc_html__( '4', 'aabot-elementor' ),
-					'9' => esc_html__( '6', 'aabot-elementor' ),
-					'12' => esc_html__( '8', 'aabot-elementor' ),
+					'3'  => esc_html__( '3', 'aabot-elementor' ),
+					'6' => esc_html__( '6', 'aabot-elementor' ),
+					'9' => esc_html__( '9', 'aabot-elementor' ),
+					'12' => esc_html__( '122', 'aabot-elementor' ),
 				],
 				'default'   => '2',
 			]
